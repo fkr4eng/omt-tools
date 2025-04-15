@@ -7,7 +7,7 @@ import pandas as pd
 import cachewrapper as cw
 
 
-from stafo.utils import BASE_DIR, CONFIG_PATH, render_template
+from stafo.utils import BASE_DIR, CONFIG_PATH, render_template, config_data
 from stafo.core import llm_api
 from stafo.statement_to_kg import ConversionManager
 
@@ -16,7 +16,15 @@ activate_ips_on_exception()
 
 llm_cache_path = "llm_cache.pcl"
 
-omt_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), "../", "memristor-ontology")), "omt.py")
+
+if omt_path := config_data.get("omt_path"):
+    omt_path = os.path.join(omt_path, "omt.py")
+    assert os.path.isfile(omt_path)
+else:
+    # use hardcoded fallback
+    omt_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "omt")), "omt.py")
+
+
 omt_load_dict = {"path": omt_path, "prefix": "omt", "module_name": "omt"}
 
 # not so elegant but we load the omt module already to get its uri, to generate keys compatible with that module

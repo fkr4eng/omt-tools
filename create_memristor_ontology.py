@@ -7,13 +7,14 @@ import google.generativeai as genai
 import json
 import pandas as pd
 import cachewrapper as cw
-
+import random
 
 from stafo.utils import BASE_DIR, CONFIG_PATH, render_template
 from stafo.core import llm_api
 from stafo.statement_to_kg import ConversionManager
 
-llm_cache_path = "llm_cache.pcl"
+random.seed(42)
+# llm_cache_path = "llm_cache.pcl"
 
 omt_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "omt")), "omt.py")
 omt_load_dict = {"path": omt_path, "prefix": "omt", "module_name": "omt"}
@@ -28,10 +29,11 @@ def main():
     # step 1
     # parse Bibliography and return Authors and Titles
 
-    compare_publication_folders = ["2019", "2024"]
+    compare_publication_folders = ["2019_lanza","2019_xia", "2024_aguirre", ]
     publist = ""
 
     for name in compare_publication_folders:
+        llm_cache_path = f"llm_cache_{name}.pcl"
         publist += "\n"
         bib_path = f"data/{name}/bib.md"
         table_path = f"data/{name}/table.md"
@@ -51,12 +53,8 @@ def main():
             d[head] = head.strip()
         df = df.rename(columns=d, errors="raise")
 
-        # drop useless columns left of source
-        for colname in df.columns:
-            if "Source" in colname:
-                break
-            else:
-                df = df.drop(columns=[colname])
+        assert "Source" in df.columns, "table is missing Source column"
+        assert "Stack" in df.columns, "table is missing Stack column"
 
         # drop separation row
         df = df.drop(index=0)
@@ -108,16 +106,18 @@ def main():
             if i < 120:
                 # continue
                 pass
-            if i == 129:
+            if i == 23:
                 pass
             if line.startswith("-"):
 
                 message = f"read the bib entry and generate a json file with the fields: citation_number, author, title, \
                     year, journal and fills those if possible. The data type of the field author is always a list \
-                    (it might only have one entry or even zero entries). Dont write ````json, just clean json code. \
+                    (it might only have one entry or even zero entries). The data type of citation_number is int. \
+                    Dont write ````json, just clean json code. \
                     Bib entry: {line}"
 
                 if os.path.isfile(llm_cache_path):
+                # todo make a cache for each file, so that you can indepenantly delete them
                     cached_llm_container.load_cache(llm_cache_path)
                 res = cached_llm_container.llm_api(message)
                 cached_llm_container.save_cache(llm_cache_path)
@@ -171,10 +171,10 @@ def main():
                 if info["title"]:
                     pub_dict["R8434"] = info["title"]
                 else:
-                    continue
+                    pub_dict["R8434"] = f"No title given {random.randint(1e10, 1e11)}"
                 if info["year"]:
                     pub_dict["R8435"] = info["year"]
-                pub_id = "publication: " + info["title"]
+                pub_id = "publication: " + pub_dict["R8434"]
                 CM.add_new_item(CM.d, pub_id, "en", pub_dict)
 
                 # add citation to examined publication

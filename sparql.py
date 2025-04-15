@@ -10,8 +10,9 @@ ag_mod = mod1.ag
 omt_mod = mod1.omt
 
 # dynamically get the short keys since they might change if the knowledge graph is updated
-paper_2019 = p.ds.get_item_by_label("publication: Memristive crossbar arrays for brain-inspired computing").short_key
-paper_2024 = p.ds.get_item_by_label("publication: Hardware implementation of memristorbased artificial neural networks").short_key
+paper_2019_xia = p.ds.get_item_by_label("publication: Memristive crossbar arrays for brain-inspired computing").short_key
+paper_2024_aguirre = p.ds.get_item_by_label("publication: Hardware implementation of memristorbased artificial neural networks").short_key
+paper_2019_lanza = p.ds.get_item_by_label("publication: Recommended Methods to Study Resistive Switching Devices").short_key
 I_mem_stack = p.ds.get_item_by_label("memristor stack")
 I_stack_comp = p.ds.get_item_by_label("stack component")
 for k, v in p.ds.relations.items():
@@ -27,6 +28,7 @@ for k, v in p.ds.relations.items():
 
 p.ds.rdfgraph = p.rdfstack.create_rdf_triples()
 
+IPS()
 ################################################################################
 # queries
 ################################################################################
@@ -38,9 +40,9 @@ PREFIX mem: <{mod1.__URI__}#>
 PREFIX ag: <{ag_mod.__URI__}#>
 SELECT ?o1 ?o2 ?aut
 WHERE {{
-    mem:{paper_2019} ag:R8440 ?o1.
+    mem:{paper_2019_xia} ag:R8440__cites ?o1.
     ?o1 ag:R8433 ?aut.
-    mem:{paper_2024} ag:R8440 ?o2.
+    mem:{paper_2024_aguirre} ag:R8440__cites ?o2.
     ?o2 ag:R8433 ?aut.
 }}
 """
@@ -57,8 +59,8 @@ PREFIX mem: <{mod1.__URI__}#>
 PREFIX ag: <{ag_mod.__URI__}#>
 SELECT ?pub1 ?pub2 ?stack
 WHERE {{
-    mem:{paper_2019} ag:R8440 ?pub1.
-    mem:{paper_2024} ag:R8440 ?pub2.
+    mem:{paper_2019_xia} ag:R8440__cites ?pub1.
+    mem:{paper_2024_aguirre} ag:R8440__cites ?pub2.
     ?pub1 mem:{R_has_mem_st} ?stack.
     ?pub2 mem:{R_has_mem_st} ?stack.
 }}
@@ -74,12 +76,12 @@ PREFIX mem: <{mod1.__URI__}#>
 PREFIX ag: <{ag_mod.__URI__}#>
 SELECT ?pub1 ?pub2 ?stack1 ?stack2 ?comp1 ?comp2
 WHERE {{
-    mem:{paper_2019} ag:R8440 ?pub1.
+    mem:{paper_2019_xia} ag:R8440__cites ?pub1.
     ?pub1 mem:{R_has_mem_st} ?stack1.
     ?stack1 mem:{R_has_st_com}__has_stack_component ?comp1.
     ?stack1 mem:{R_has_st_com}__has_stack_component ?comp2.
 
-    mem:{paper_2024} ag:R8440 ?pub2.
+    mem:{paper_2024_aguirre} ag:R8440__cites ?pub2.
     ?pub2 mem:{R_has_mem_st} ?stack2.
     ?stack2 mem:{R_has_st_com}__has_stack_component ?comp1.
     ?stack2 mem:{R_has_st_com}__has_stack_component ?comp2.
@@ -98,13 +100,13 @@ PREFIX mem: <{mod1.__URI__}#>
 PREFIX ag: <{ag_mod.__URI__}#>
 SELECT ?pub1 ?pub2 ?stack1 ?stack2 ?comp1 ?comp2 ?comp3
 WHERE {{
-    mem:{paper_2019} ag:R8440 ?pub1.
+    mem:{paper_2019_xia} ag:R8440__cites ?pub1.
     ?pub1 mem:{R_has_mem_st} ?stack1.
     ?stack1 mem:{R_has_st_com}__has_stack_component ?comp1.
     ?stack1 mem:{R_has_st_com}__has_stack_component ?comp2.
     ?stack1 mem:{R_has_st_com}__has_stack_component ?comp3.
 
-    mem:{paper_2024} ag:R8440 ?pub2.
+    mem:{paper_2024_aguirre} ag:R8440__cites ?pub2.
     ?pub2 mem:{R_has_mem_st} ?stack2.
     ?stack2 mem:{R_has_st_com}__has_stack_component ?comp1.
     ?stack2 mem:{R_has_st_com}__has_stack_component ?comp2.
@@ -194,10 +196,10 @@ PREFIX mem_s: <{mod1.__URI__}/STATEMENTS#>
 PREFIX mem_p: <{mod1.__URI__}/PREDICATES#>
 SELECT ?pub1 ?pub2 ?stack1 ?stack2 ?comp1 ?comp2 ?pos1a ?pos2a ?pos1b ?pos2b
 WHERE {{
-  mem:{paper_2019} ag:R8440 ?pub1.
+  mem:{paper_2019_xia} ag:R8440__cites ?pub1.
   ?pub1 mem:{R_has_mem_st} ?stack1.
 
-  mem:{paper_2024} ag:R8440 ?pub2.
+  mem:{paper_2024_aguirre} ag:R8440__cites ?pub2.
   ?pub2 mem:{R_has_mem_st} ?stack2.
 
   {{
@@ -252,10 +254,10 @@ PREFIX mem_s: <{mod1.__URI__}/STATEMENTS#>
 PREFIX mem_p: <{mod1.__URI__}/PREDICATES#>
 SELECT ?pub1 ?pub2 ?stack1 ?stack2 ?comp1 ?comp2 ?pos1b ?pos2b
 WHERE {{
-  mem:{paper_2019} ag:R8440 ?pub1.
+  mem:{paper_2019_xia} ag:R8440__cites ?pub1.
   ?pub1 mem:{R_has_mem_st}__has_memristor_stack ?stack1.
 
-  mem:{paper_2024} ag:R8440 ?pub2.
+  mem:{paper_2024_aguirre} ag:R8440__cites ?pub2.
   ?pub2 mem:{R_has_mem_st}__has_memristor_stack ?stack2.
 
   {{
@@ -291,12 +293,77 @@ WHERE {{
       FILTER(0 != ?pos2b)
     }}
   }}
-#   FILTER(?pos1b = ?pos2b) # remove this to match stacks of different length
+#   FILTER(?pos1b = ?pos2b) # remove this to match stacks of different lengths
 }}
 """
 p.ds.rdfgraph = p.rdfstack.create_rdf_triples(add_qualifiers=True, modfilter=mod1.__URI__)
 res2 = p.rdfstack.perform_sparql_query(qsrc)
 table = p.rdfstack.query_result_to_table(res2)
+
+
+
+print("From two different overview papers, find a publication that describes a stack. Both of those stacks shall have the same first component and same last component.")
+
+qsrc = f"""
+PREFIX : <{p.rdfstack.IRK_URI}>
+PREFIX qf: <{mod1.__URI__}/QUALIFIERS#>
+PREFIX mem: <{mod1.__URI__}#>
+PREFIX ag: <{ag_mod.__URI__}#>
+PREFIX omt: <{omt_mod.__URI__}#>
+PREFIX mem_s: <{mod1.__URI__}/STATEMENTS#>
+PREFIX mem_p: <{mod1.__URI__}/PREDICATES#>
+SELECT ?paper1 ?paper2 ?pub1 ?pub2 ?stack1 ?stack2 ?comp1 ?comp2 ?pos1b ?pos2b
+WHERE {{
+  ?paper1 ag:R8440__cites ?pub1.
+  ?pub1 mem:{R_has_mem_st}__has_memristor_stack ?stack1.
+
+  ?paper2 ag:R8440__cites ?pub2.
+  ?pub2 mem:{R_has_mem_st}__has_memristor_stack ?stack2.
+
+  FILTER (?paper1 != ?paper2)
+
+  {{
+    SELECT ?stack1 ?comp1 ?comp2 ?pos1b
+    WHERE {{
+      ?stack1 mem_s:{R_has_st_com}__has_stack_component ?stm1.
+      ?stm1 mem_p:{R_has_st_com}__has_stack_component ?comp1;
+             qf:{R_has_pos}__has_position 0;
+             qf:{R_is_outer}__is_at_outer_position True.
+
+      ?stack1 mem_s:{R_has_st_com}__has_stack_component ?stm2.
+      ?stm2 mem_p:{R_has_st_com}__has_stack_component ?comp2;
+             qf:{R_has_pos}__has_position ?pos1b;
+             qf:{R_is_outer}__is_at_outer_position True.
+
+      FILTER(0 != ?pos1b)
+    }}
+  }}
+
+  {{
+    SELECT ?stack2 ?comp1 ?comp2 ?pos2b
+    WHERE {{
+      ?stack2 mem_s:{R_has_st_com}__has_stack_component ?stm3.
+      ?stm3 mem_p:{R_has_st_com}__has_stack_component ?comp1;
+             qf:{R_has_pos}__has_position 0;
+             qf:{R_is_outer}__is_at_outer_position True.
+
+      ?stack2 mem_s:{R_has_st_com}__has_stack_component ?stm4.
+      ?stm4 mem_p:{R_has_st_com}__has_stack_component ?comp2;
+             qf:{R_has_pos}__has_position ?pos2b;
+             qf:{R_is_outer}__is_at_outer_position True.
+
+      FILTER(0 != ?pos2b)
+    }}
+  }}
+#   FILTER(?pos1b = ?pos2b) # remove this to match stacks of different lengths
+}}
+"""
+p.ds.rdfgraph = p.rdfstack.create_rdf_triples(add_qualifiers=True, modfilter=mod1.__URI__)
+res2 = p.rdfstack.perform_sparql_query(qsrc)
+table = p.rdfstack.query_result_to_table(res2)
+with open("sparql_res/From two different overview papers, find a publication that describes a stack. Both of those stacks shall have the same first component and same last component.csv", "wt") as f:
+    table.to_csv(f)
+
 
 IPS()
 

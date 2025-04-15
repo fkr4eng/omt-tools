@@ -51,7 +51,7 @@ def set_temperature(source_dict: dict, key: str, target_dict: dict, new_key: str
         value += 273.15
         pass
 
-    target_dict[new_key] = value
+    target_dict[new_key] = round(value, 2)
 
 
 
@@ -67,7 +67,7 @@ def main():
 
     with p.uri_context(mod_uri):
         CM.step1_init()
-        CM.step2_parse_fnl()
+        # CM.step2_parse_fnl()
 
     CM.current_snippet = "mem"
     CM.default_language = "en"
@@ -88,6 +88,7 @@ def main():
             "R4": 'omt.I6205["chemical element"]',
 
             # this requires stafo >= 0.1.1 (due to hardcoded relations)
+            "R2060": f'"{entry["symbol"]}"',
             "R2061": entry["atomic_number"],
             "R2062": entry["group_number"],
         }
@@ -98,9 +99,10 @@ def main():
         CM.add_new_item(CM.d, entry["name"], "en", additional_relations=add_stmts)
         CM.add_relation_inplace(CM.d["items"][entry["name"]], "omt__R2061__has_atomic_number", entry["atomic_number"])
 
-    CM.render()
+    # apply replacements which simplify copy-pasting
+    CM.render(final_replacements=[("=omt.", "="), ("omt__", ""), ("\n\n# mem", "")])
 
-    # IPS()
+    IPS()
 
 
 if __name__ == "__main__":

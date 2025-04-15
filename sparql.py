@@ -1,9 +1,26 @@
-import pyirk as p
 import os
+
+import pyirk as p
 from ipydex import IPS
 
+from stafo.utils import config_data
+
 path = "output.py"
-ag_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "ocse")), "agents1.py")
+
+if omt_path := config_data.get("omt_path"):
+    omt_path = os.path.join(omt_path, "omt.py")
+    assert os.path.isfile(omt_path)
+else:
+    # use hardcoded fallback
+    omt_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "omt")), "omt.py")
+
+
+if ocse_path := config_data.get("ocse_path"):
+    ag_path = os.path.join(ocse_path, "agents1.py")
+    assert os.path.isfile(ag_path)
+else:
+    # use hardcoded fallback
+    ag_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "ocse")), "agents1.py")
 
 mod1 = p.irkloader.load_mod_from_path(path, "mem")
 ag_mod = mod1.ag
@@ -366,4 +383,3 @@ with open("sparql_res/From two different overview papers, find a publication tha
 
 
 IPS()
-

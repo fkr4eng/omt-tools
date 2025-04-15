@@ -7,21 +7,6 @@ from stafo.utils import config_data
 
 path = "output.py"
 
-if omt_path := config_data.get("omt_path"):
-    omt_path = os.path.join(omt_path, "omt.py")
-    assert os.path.isfile(omt_path)
-else:
-    # use hardcoded fallback
-    omt_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "omt")), "omt.py")
-
-
-if ocse_path := config_data.get("ocse_path"):
-    ag_path = os.path.join(ocse_path, "agents1.py")
-    assert os.path.isfile(ag_path)
-else:
-    # use hardcoded fallback
-    ag_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "ocse")), "agents1.py")
-
 mod1 = p.irkloader.load_mod_from_path(path, "mem")
 ag_mod = mod1.ag
 omt_mod = mod1.omt
@@ -43,9 +28,11 @@ for k, v in p.ds.relations.items():
         elif "is at outer position" in v.R1:
             R_is_outer = k.split("#")[-1]
 
-p.ds.rdfgraph = p.rdfstack.create_rdf_triples()
+p.ds.rdfgraph = p.rdfstack.create_rdf_triples(add_qualifiers=True)
 
 IPS()
+exit()
+
 ################################################################################
 # queries
 ################################################################################
@@ -58,13 +45,12 @@ PREFIX ag: <{ag_mod.__URI__}#>
 SELECT ?o1 ?o2 ?aut
 WHERE {{
     mem:{paper_2019_xia} ag:R8440__cites ?o1.
-    ?o1 ag:R8433 ?aut.
+    ?o1 ag:R8433__has_authors ?aut.
     mem:{paper_2024_aguirre} ag:R8440__cites ?o2.
-    ?o2 ag:R8433 ?aut.
+    ?o2 ag:R8433__has_authors ?aut.
 }}
 """
-res = p.ds.rdfgraph.query(qsrc)
-res2 = p.aux.apply_func_to_table_cells(p.rdfstack.convert_from_rdf_to_pyirk, res)
+res2 = res1 = p.rdfstack.perform_sparql_query(qsrc)
 print("Results:", len(res2))
 
 # IPS()
@@ -106,6 +92,25 @@ WHERE {{
     FILTER(?comp1 != ?comp2)
 }}
 """
+
+print("Stacks with Ti as top electrode")
+qsrc = f"""
+PREFIX : <{p.rdfstack.IRK_URI}>
+PREFIX mem: <{mod1.__URI__}#>
+PREFIX ag: <{ag_mod.__URI__}#>
+SELECT ?stack1 ?comp1
+WHERE {{
+    ?pub1 mem:{R_has_mem_st} ?stack1.
+    ?stack1 :R4 mem:{I_mem_stack}.
+    ?stack1 mem:{R_has_st_com}__has_stack_component ?comp1.
+
+    ?comp1 :R1
+
+
+}}
+"""
+
+
 res = p.ds.rdfgraph.query(qsrc)
 res2 = p.aux.apply_func_to_table_cells(p.rdfstack.convert_from_rdf_to_pyirk, res)
 print("Results:", len(res2))

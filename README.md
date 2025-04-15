@@ -32,3 +32,6 @@ TODO Treestructure
 ## pose queries
 1. run `sparql.py` to see some example queries
     - use `p.rdfstack.query_result_to_table(res)` for pretty results
+
+## visualization
+- configure `visu.py` with label und radius

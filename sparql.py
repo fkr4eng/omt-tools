@@ -57,10 +57,10 @@ qsrc = f"""
 PREFIX : <{p.rdfstack.IRK_URI}>
 PREFIX mem: <{mod1.__URI__}#>
 PREFIX ag: <{ag_mod.__URI__}#>
-SELECT ?pub1 ?pub2 ?stack
+SELECT ?paper1 ?paper2 ?pub1 ?pub2 ?stack
 WHERE {{
-    mem:{paper_2019_xia} ag:R8440__cites ?pub1.
-    mem:{paper_2024_aguirre} ag:R8440__cites ?pub2.
+    ?paper1 ag:R8440__cites ?pub1.
+    ?paper2 ag:R8440__cites ?pub2.
     ?pub1 mem:{R_has_mem_st} ?stack.
     ?pub2 mem:{R_has_mem_st} ?stack.
 }}
@@ -302,7 +302,7 @@ table = p.rdfstack.query_result_to_table(res2)
 
 
 
-print("From two different overview papers, find a publication that describes a stack. Both of those stacks shall have the same first component and same last component.")
+print("From two different overview papers, find a publication each that describes a stack. Both of those stacks shall have the same first component and the same last component.")
 
 qsrc = f"""
 PREFIX : <{p.rdfstack.IRK_URI}>

@@ -2,7 +2,10 @@ import pyirk as p
 import os, sys
 import re
 from ipydex import IPS, Container
-# from scholarly import scholarly
+try:
+    from scholarly import scholarly
+except:
+    use_scholarly = False
 import google.generativeai as genai
 import json
 import pandas as pd
@@ -25,10 +28,11 @@ else:
     omt_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "omt")), "omt.py")
 
 omt_load_dict = {"path": omt_path, "prefix": "omt", "module_name": "omt"}
+ag_load_dict = {"path": os.path.join(config_data["ocse_path"], "agents1.py"), "prefix": "ag", "module_name": "agents"}
 
 def main():
     CM = ConversionManager("formalized_statements.md", num_keys=1000,
-        load_irk_modules=["ag"], additional_modules=[omt_load_dict])
+        load_irk_modules=[omt_load_dict, ag_load_dict])
     CM.step1_init()
     CM.step2_parse_fnl()
     CM.current_snippet = "mem"

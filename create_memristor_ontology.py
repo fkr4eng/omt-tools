@@ -183,7 +183,7 @@ def main():
                 if info["title"]:
                     pub_dict["R8434"] = info["title"]
                 else:
-                    pub_dict["R8434"] = f"No title given {random.randint(1e10, 1e11)}"
+                    pub_dict["R8434"] = f"No title given {random.randint(int(1e10), int(1e11))}"
                 if info["year"]:
                     pub_dict["R8435"] = info["year"]
                 pub_id = "publication: " + pub_dict["R8434"]

@@ -27,6 +27,10 @@ for k, v in p.ds.relations.items():
             R_has_pos = k.split("#")[-1]
         elif "is at outer position" in v.R1:
             R_is_outer = k.split("#")[-1]
+        elif "has citation id" in v.R1:
+            R_cit_id = k.split("#")[-1]
+        elif "has internal reference" in v.R1:
+            R_int_ref = k.split("#")[-1]
 
 p.ds.rdfgraph = p.rdfstack.create_rdf_triples(add_qualifiers=True)
 
@@ -93,28 +97,6 @@ WHERE {{
 }}
 """
 
-print("Stacks with Ti as top electrode")
-qsrc = f"""
-PREFIX : <{p.rdfstack.IRK_URI}>
-PREFIX mem: <{mod1.__URI__}#>
-PREFIX ag: <{ag_mod.__URI__}#>
-SELECT ?stack1 ?comp1
-WHERE {{
-    ?pub1 mem:{R_has_mem_st} ?stack1.
-    ?stack1 :R4 mem:{I_mem_stack}.
-    ?stack1 mem:{R_has_st_com}__has_stack_component ?comp1.
-
-    ?comp1 :R1
-
-
-}}
-"""
-
-
-res = p.ds.rdfgraph.query(qsrc)
-res2 = p.aux.apply_func_to_table_cells(p.rdfstack.convert_from_rdf_to_pyirk, res)
-print("Results:", len(res2))
-
 print("papers from both tables with 3 overlapping components in stack, discounting order")
 qsrc = f"""
 PREFIX : <{p.rdfstack.IRK_URI}>
@@ -174,7 +156,7 @@ PREFIX mem_p: <{mod1.__URI__}/PREDICATES#>
 SELECT ?stack1 ?comp1 ?pos
 WHERE {{
     ?stack1 mem_s:{R_has_st_com}__has_stack_component ?stm.
-    ?stm mem_p:{R_has_st_com}__has_stack_component omt:I6118.
+    ?stm mem_p:{R_has_st_com}__has_stack_component ?comp1.
     ?stm qf:{R_has_pos}__has_position 0.
     ?stm qf:{R_is_outer}__is_at_outer_position True.
 }}
@@ -383,7 +365,7 @@ WHERE {{
 p.ds.rdfgraph = p.rdfstack.create_rdf_triples(add_qualifiers=True, modfilter=mod1.__URI__)
 res2 = p.rdfstack.perform_sparql_query(qsrc)
 table = p.rdfstack.query_result_to_table(res2)
-with open("sparql_res/From two different overview papers, find a publication that describes a stack. Both of those stacks shall have the same first component and same last component.csv", "wt") as f:
+with open("sparql/res/From two different overview papers, find a publication that describes a stack. Both of those stacks shall have the same first component and same last component.csv", "wt") as f:
     table.to_csv(f)
 
 

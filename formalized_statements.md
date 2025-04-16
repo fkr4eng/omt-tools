@@ -16,3 +16,6 @@
 - There is a relation: 'is at outer position'
 - The result type of 'is at outer position' is 'bool'
 - 'is at outer position' is a qualifier.
+- There is a relation: 'has citation id'.
+- 'has citation id' is a qualifier.
+- There is a relation: 'has internal reference'

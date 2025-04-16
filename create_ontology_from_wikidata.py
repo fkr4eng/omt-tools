@@ -64,12 +64,12 @@ def set_temperature(source_dict: dict, key: str, target_dict: dict, new_key: str
 
 
 def main():
+    ag_load_dict = {"path": os.path.join(config_data["ocse_path"], "agents1.py"), "prefix": "ag", "module_name": "agents"}
 
     CM = ConversionManager(
         "formalized_statements.md",
         num_keys=1000,
-        load_irk_modules=["ag"],
-        additional_modules=[omt_load_dict],
+        load_irk_modules=[ag_load_dict, omt_load_dict],
         mod_uri=mod_uri,
     )
 

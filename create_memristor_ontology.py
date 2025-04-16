@@ -43,7 +43,7 @@ def main():
     compare_publication_folders = ["2019_lanza","2019_xia", "2024_aguirre", ]
     publist = ""
 
-    for name in compare_publication_folders:
+    for num, name in enumerate(compare_publication_folders):
         llm_cache_path = f"llm_cache_{name}.pcl"
         publist += "\n"
         bib_path = f"data/{name}/bib.md"
@@ -98,6 +98,7 @@ def main():
             pub_dict["R8435"] = meta_infos["year"]
         og_pub_id = "publication: " + meta_infos["title"]
         CM.add_new_item(CM.d, og_pub_id, "en", pub_dict)
+        CM.add_relation_inplace(CM.d["items"][og_pub_id], CM.d["relations"]["has internal reference"]["key"], f'"{name}"')
 
 
 
@@ -189,15 +190,12 @@ def main():
                 CM.add_new_item(CM.d, pub_id, "en", pub_dict)
 
                 # add citation to examined publication
-                CM.add_relation_inplace(CM.d["items"][og_pub_id], "R8440", pub_id)
+                q = [{CM.d["relations"]["has citation id"]["key"]: info["citation_number"]}]
+                CM.add_relation_inplace(CM.d["items"][og_pub_id], "R8440", pub_id, qualifier=q)
 
 
                 publist += line + "\n"
                 citation_dict[info["citation_number"]] = pub_id
-
-                # save dict
-                with open(temp_path, "wt", encoding="utf-8") as f:
-                    json.dump(CM.d, f)
 
         # examine the stacks
         for i, row in df.iterrows():

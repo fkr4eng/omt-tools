@@ -223,6 +223,12 @@ def main():
 
                 for i, compound in enumerate(stack.split("/")):
                     d = {"R4": CM.build_reference("stack component", d)}
+                    # check if compound already exists
+                    ## check if compund is element from omt, elements have R1 full name (eg nickel) and R2060_has_element_symbol relation (eg Ni)
+                    for stm in p.ds.relation_statements.get(f"{CM.loaded_modules.omt.__URI__}#R2060"):
+                        if stm.object == compound:
+                            compound = stm.subject.R1.value
+                            break
                     CM.add_new_item(CM.d, compound, "en", d)
                     q = [{CM.d["relations"]["has position"]["key"]: i,
                          CM.d["relations"]["is at outer position"]["key"]: (i==0 or i==len(stack.split("/"))-1)}]

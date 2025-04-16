@@ -14,9 +14,6 @@ from stafo.statement_to_kg import ConversionManager
 activate_ips_on_exception()
 
 
-llm_cache_path = "llm_cache.pcl"
-
-
 if omt_path := config_data.get("omt_path"):
     omt_path = os.path.join(omt_path, "omt.py")
     assert os.path.isfile(omt_path)

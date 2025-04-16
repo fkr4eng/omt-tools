@@ -9,7 +9,7 @@ omt = p.irkloader.load_mod_from_path(r"C:\Users\Julius Fiedler\Documents\Code\ir
 ag = p.irkloader.load_mod_from_path(r"C:\Users\Julius Fiedler\Documents\Code\irk\irk-data\ocse\agents1.py", prefix="ag")
 
 
-__URI__ = "irk:/ocse/0.2/auto_import_formalized_statements"
+__URI__ = "irk:/ocse/0.2/irk:/omt/mem"
 
 keymanager = p.KeyManager()
 p.register_mod(__URI__, keymanager)
@@ -394,7 +394,7 @@ I18540["publication: Recommended Methods to Study Resistive Switching Devices"].
     ag__R8433__has_authors=["Mario Lanza", "H.-S. Philip Wong", " Eric Pop", " Daniele Ielmini", " Dimitri Strukov", " Brian C. Regan", "Luca Larcher", " Marco A. Villena", " J. Joshua Yang", " Ludovic Goux", " Attilio Belmonte", " Yuchao Yang", "Francesco M. Puglisi", " Jinfeng Kang", " Blanka Magyari-KÃ¶pe", " Eilam Yalon", " Anthony Kenyon", "Mark Buckwell", " Adnan Mehonic", " Alexander Shluger", " Haitong Li", " Tuo-Hung Hou", " Boris Hudec", "Deji Akinwande", " Ruijing Ge", " Stefano Ambrogio", " Juan B. Roldan", " Enrique Miranda", " Jordi SuÃ±e", "Kin Leong Pey", " Xing Wu", " Nagarajan Raghavan", " Ernest Wu", " Wei D. Lu", " Gabriele Navarro", "Weidong Zhang", " Huaqiang Wu", " Runwei Li", " Alexander Holleitner", " Ursula Wurstbauer", "Max C. Lemme", " Ming Liu", " Shibing Long", " Qi Liu", " Hangbing Lv", " Andrea Padovani", "Paolo Pavan", " Ilia Valov", " Xu Jing", " Tingting Han", " Kaichen Zhu", " Shaochuan Chen", " Fei Hui", "Yuanyuan Shi"],
     ag__R8434__has_title="Recommended Methods to Study Resistive Switching Devices",
     ag__R8435__has_year=2019,
-    R68407__has_internal_reference="2019_lanza",
+    R68407__has_internal_reference="2019_lanza_et_al",
     
 )
 I18540["publication: Recommended Methods to Study Resistive Switching Devices"].set_relation(ag.R8440["cites"], I6557["publication: IEEE Int. Electron Devices Meet."], qualifiers=[has_citation_id(24), ])
@@ -1929,7 +1929,7 @@ I35428["publication: Memristive crossbar arrays for brain-inspired computing"].u
     ag__R8433__has_authors=["Qiangfei Xia", "J. Joshua Yang"],
     ag__R8434__has_title="Memristive crossbar arrays for brain-inspired computing",
     ag__R8435__has_year=2019,
-    R68407__has_internal_reference="2019_xia",
+    R68407__has_internal_reference="2019_xia_et_al",
     
 )
 I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I69974["publication: Memristors with difusive dynamics as synaptic emulators for neuromorphic computing"], qualifiers=[has_citation_id(33), ])
@@ -2799,7 +2799,7 @@ I93419["publication: Hardware implementation of memristorbased artificial neural
     ag__R8433__has_authors=["Fernando Aguirre", "Abu Sebastian"],
     ag__R8434__has_title="Hardware implementation of memristorbased artificial neural networks",
     ag__R8435__has_year=2024,
-    R68407__has_internal_reference="2024_aguirre",
+    R68407__has_internal_reference="2024_aguirre_et_al",
     
 )
 I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I11520["publication: Fully hardware-implemented memristor convolutional neural network"], qualifiers=[has_citation_id(55), ])

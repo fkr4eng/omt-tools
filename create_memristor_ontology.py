@@ -32,7 +32,7 @@ ag_load_dict = {"path": os.path.join(config_data["ocse_path"], "agents1.py"), "p
 
 def main():
     CM = ConversionManager("formalized_statements.md", num_keys=1000,
-        load_irk_modules=[omt_load_dict, ag_load_dict])
+        load_irk_modules=[omt_load_dict, ag_load_dict], mod_uri="irk:/omt/mem")
     CM.step1_init()
     CM.step2_parse_fnl()
     CM.current_snippet = "mem"
@@ -98,7 +98,7 @@ def main():
             pub_dict["R8435"] = meta_infos["year"]
         og_pub_id = "publication: " + meta_infos["title"]
         CM.add_new_item(CM.d, og_pub_id, "en", pub_dict)
-        CM.add_relation_inplace(CM.d["items"][og_pub_id], CM.d["relations"]["has internal reference"]["key"], f'"{name}"')
+        CM.add_relation_inplace(CM.d["items"][og_pub_id], CM.d["relations"]["has internal reference"]["key"], f'"{name}_et_al"')
 
 
 

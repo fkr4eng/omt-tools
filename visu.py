@@ -1,5 +1,9 @@
-import pyirk as p
 import os
+
+import pyirk as p
+
+from ipydex import IPS
+
 
 path = "output.py"
 
@@ -16,3 +20,5 @@ def visualize(label, radius):
 ###################
 visualize("Pt", 1)
 visualize("Pt", 2)
+
+IPS()

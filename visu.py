@@ -44,6 +44,7 @@ def prepare_graph():
 
     for human in humans_to_delete:
         p.ds.statements.pop(human.uri)
+        p.ds.items.pop(human.uri)
 
     return None
 
@@ -58,4 +59,28 @@ def visualize_whole_graph():
 
 visualize_whole_graph()
 
+
+
+literal_statements = []
+entity_statements = []
+qualifier_statements = []
+remaining_statements = []
+
+for stm_dict in p.ds.statements.values():
+    for stm_list in stm_dict.values():
+        for stm in stm_list:
+            if isinstance(stm, p.QualifierStatement):
+                qualifier_statements.append(stm)
+            elif isinstance(stm.object, (p.Literal, bool, str, int, float)):
+                literal_statements.append(stm)
+            elif isinstance(stm.object, p.Entity):
+                entity_statements.append(stm)
+            else:
+                remaining_statements.append(stm)
+
+print(f"{len(literal_statements)=}")
+print(f"{len(entity_statements)=}")
+print(f"{len(qualifier_statements)=}")
+print(f"{len(remaining_statements)=}")
+print(f"{len(p.ds.items)=}")
 IPS()

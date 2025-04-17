@@ -11,6 +11,7 @@ import json
 import pandas as pd
 import cachewrapper as cw
 import random
+import time
 
 from stafo.utils import BASE_DIR, CONFIG_PATH, render_template, config_data
 from stafo.core import llm_api
@@ -45,12 +46,12 @@ def main():
 
     for num, name in enumerate(compare_publication_folders):
         llm_cache_path = f"llm_cache_{name}.pcl"
+        scholarly_cache_path = "scholarly_cache.pcl"
         publist += "\n"
         bib_path = f"data/{name}/bib.md"
         table_path = f"data/{name}/table.md"
         meta_path = f"data/{name}/meta.json"
 
-        temp_path = f"data/temp/tmp.json"
         CM.current_snippet = name
 
         citation_dict = {}
@@ -113,6 +114,8 @@ def main():
         llm_container = Container()
         llm_container.llm_api = llm_api
         cached_llm_container = cw.CacheWrapper(llm_container)
+        if use_scholarly:
+            _scholarly = cw.CacheWrapper(scholarly)
 
         for i, line in enumerate(content.split("\n")):
             if i < 120:
@@ -129,7 +132,6 @@ def main():
                     Bib entry: {line}"
 
                 if os.path.isfile(llm_cache_path):
-                # todo make a cache for each file, so that you can indepenantly delete them
                     cached_llm_container.load_cache(llm_cache_path)
                 res = cached_llm_container.llm_api(message)
                 cached_llm_container.save_cache(llm_cache_path)
@@ -146,11 +148,34 @@ def main():
                 if info["citation_number"] not in relevant_citations:
                     continue
 
+                if not isinstance(info["author"], list):
+                    info["author"] = list(info["author"])
+
                 # get coauthors
                 if use_scholarly:
-                    pubs = scholarly.search_pubs(info["title"] + " " + info["author"])
-                    pub = next(pubs)
-                    info["author"] = pub["bib"]["author"]
+                    q = ""
+                    for k, v in info.items():
+                        if isinstance(v, list):
+                            q += ", ".join(v) + " "
+                        elif v is None:
+                            continue
+                        else:
+                            q += str(v) + " "
+
+                    if os.path.isfile(scholarly_cache_path):
+                        _scholarly.load_cache(scholarly_cache_path)
+                    pub = _scholarly.search_single_pub(q)
+                    _scholarly.save_cache(scholarly_cache_path)
+                    time.sleep(2)
+                    if pub:
+                        info["author"] = pub["bib"]["author"]
+                    else:
+                        # get rid of et al
+                        if 'et al.' in info["author"]:
+                            info["author"].remove('et al.')
+                        # ensure compatibility with scholarly
+                        pub = {"author_id": ["" for a in info["author"]]}
+
                 else:
                     # get rid of et al
                     if 'et al.' in info["author"]:
@@ -163,7 +188,11 @@ def main():
                 for author, author_id in zip(info["author"], pub["author_id"]):
                     if not author in CM.d["items"].keys():
                         if use_scholarly and author_id:
-                            auth = scholarly.search_author_id(author_id)
+                            if os.path.isfile(scholarly_cache_path):
+                                _scholarly.load_cache(scholarly_cache_path)
+                            auth = _scholarly.search_author_id(author_id)
+                            _scholarly.save_cache(scholarly_cache_path)
+                            time.sleep(2)
                             message = f"read the following name and generate json code with the fields: title, family_name, given_name and fills those if possible. Dont write ````json, just clean json code. {auth['name']}"
                             res = llm_api(message)
                             name_json = json.loads(res)

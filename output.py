@@ -2564,10 +2564,7 @@ I58157["TiN/GexSe1-x/TiN"].set_relation(R48517["has stack component"], omt.I6130
 
 
 # 2019_xia 
-omt.I6130["GexSe1-x"].update_relations(
-    R4__is_instance_of=I99429["stack component"],
-    
-)
+
 
 
 # 2019_xia 
@@ -2581,10 +2578,7 @@ I27966["TiN/As:SiO2/TiN"].set_relation(R48517["has stack component"], omt.I6131[
 
 
 # 2019_xia 
-omt.I6131["As:SiO2"].update_relations(
-    R4__is_instance_of=I99429["stack component"],
-    
-)
+
 
 
 # 2019_xia 

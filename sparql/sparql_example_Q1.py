@@ -35,7 +35,7 @@ for k, v in p.ds.relations.items():
 p.ds.rdfgraph = p.rdfstack.create_rdf_triples(add_qualifiers=True)
 
 ################################################################################
-# query
+# query for Q1
 ################################################################################
 
 print("Search for publications that appear in multiple overview papers.")
@@ -65,4 +65,19 @@ res1 = p.rdfstack.perform_sparql_query(qsrc)
 table = p.rdfstack.query_result_to_table(res1, labels_only=True)
 print(table)
 table.to_csv("sparql/res/queryQ1.csv")
+
+# determine it programmatically:
+
+p1 = p.ds.get_item_by_label("publication: Memristive crossbar arrays for brain-inspired computing")
+p2 = p.ds.get_item_by_label("publication: Hardware implementation of memristorbased artificial neural networks")
+p3 =  p.ds.get_item_by_label("publication: Recommended Methods to Study Resistive Switching Devices")
+
+s1 = set(p1.ag__R8440)
+s2 = set(p2.ag__R8440)
+s3 = set(p3.ag__R8440)
+
+print(s1.intersection(s2))
+print(s1.intersection(s3))
+print(s2.intersection(s3))
+
 IPS()

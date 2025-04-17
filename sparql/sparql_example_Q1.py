@@ -35,7 +35,7 @@ for k, v in p.ds.relations.items():
 p.ds.rdfgraph = p.rdfstack.create_rdf_triples(add_qualifiers=True)
 
 ################################################################################
-# query
+# query for Q1
 ################################################################################
 
 print("Search for publications that appear in multiple overview papers.")
@@ -49,15 +49,15 @@ PREFIX ag_p: <{ag_mod.__URI__}/PREDICATES#>
 PREFIX mem: <{mod1.__URI__}#>
 PREFIX mem_s: <{mod1.__URI__}/STATEMENTS#>
 PREFIX mem_p: <{mod1.__URI__}/PREDICATES#>
-SELECT ?overview_paper ?citation_number ?component ?stack
+SELECT ?overview_paper1 ?overview_paper2 ?citation_number ?component ?stack
 WHERE {{
     ?paper1 ag:R8440__cites ?pub.
     ?paper2 ag:R8440__cites ?pub.
 
     FILTER (?paper1 != ?paper2)
 
-    ?paper1 mem:{R_int_ref}__has_internal_reference ?overview_paper.
-    ?paper2 mem:{R_int_ref}__has_internal_reference ?overview_paper.
+    ?paper1 mem:{R_int_ref}__has_internal_reference ?overview_paper1.
+    ?paper2 mem:{R_int_ref}__has_internal_reference ?overview_paper2.
 }}
 """
 p.ds.rdfgraph = p.rdfstack.create_rdf_triples(add_qualifiers=True)
@@ -65,4 +65,19 @@ res1 = p.rdfstack.perform_sparql_query(qsrc)
 table = p.rdfstack.query_result_to_table(res1, labels_only=True)
 print(table)
 table.to_csv("sparql/res/queryQ1.csv")
+
+# determine it programmatically:
+
+p1 = p.ds.get_item_by_label("publication: Memristive crossbar arrays for brain-inspired computing")
+p2 = p.ds.get_item_by_label("publication: Hardware implementation of memristorbased artificial neural networks")
+p3 =  p.ds.get_item_by_label("publication: Recommended Methods to Study Resistive Switching Devices")
+
+s1 = set(p1.ag__R8440)
+s2 = set(p2.ag__R8440)
+s3 = set(p3.ag__R8440)
+
+print(s1.intersection(s2))
+print(s1.intersection(s3))
+print(s2.intersection(s3))
+
 IPS()

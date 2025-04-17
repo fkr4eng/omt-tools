@@ -73,3 +73,35 @@ table = p.rdfstack.query_result_to_table(res1, labels_only=True)
 print(table)
 table.to_csv("sparql/res/queryQ2.csv")
 IPS()
+
+
+### convert table to latex (for paper only)
+table.to_latex("table.tex", index=False)
+with open("table.tex", "rt") as f:
+    content = f.read()
+
+author_dict = {"2019_lanza_et_al": "B",
+              "2019_xia_et_al": "A",
+              "2024_aguirre_et_al": "C"}
+for k, v in author_dict.items():
+    content = content.replace(k, v)
+
+element_dict = {"platinum": "Pt",
+                "nickel": "Ni",
+                "palladium": "Pd"}
+for k, v in element_dict.items():
+    content = content.replace(k, v)
+
+import re
+def repl_func(matchobj):
+    print(matchobj)
+    print(matchobj.group(0))
+    return "${}_{" + "".join(matchobj.group(0))+ "}$"
+content = re.sub(r"(?<=[a-zA-Z])(\d|x)([\+-]x)?", repl_func, content)
+
+table_header = r"\rot{\shortstack[l]{overview\\paper}} & \rot{\shortstack[l]{citation\\number}} & \rot{\shortstack[l]{top\\component}} & \rot{stack} \\"
+lines = content.split("\n")
+lines[2] = table_header
+text = "\n".join(lines)
+with open("table.tex", "wt") as f:
+    f.write(text)

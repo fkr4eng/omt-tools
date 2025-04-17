@@ -66,6 +66,10 @@ table = p.rdfstack.query_result_to_table(res1, labels_only=True)
 print(table)
 table.to_csv("sparql/res/queryQ1.csv")
 
+#! This might fail, if there are typos in the paper titles.
+# Here we checked this manually to make sure.
+
+
 # determine it programmatically:
 
 p1 = p.ds.get_item_by_label("publication: Memristive crossbar arrays for brain-inspired computing")

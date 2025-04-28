@@ -171,15 +171,17 @@ def main():
                         info["author"] = pub["bib"]["author"]
                     else:
                         # get rid of et al
-                        if 'et al.' in info["author"]:
-                            info["author"].remove('et al.')
+                        for i, name in enumerate(info["author"]):
+                            if "et al" in name:
+                                info["author"].pop(i)
                         # ensure compatibility with scholarly
                         pub = {"author_id": ["" for a in info["author"]]}
 
                 else:
                     # get rid of et al
-                    if 'et al.' in info["author"]:
-                        info["author"].remove('et al.')
+                    for i, name in enumerate(info["author"]):
+                        if "et al" in name: # sometimes appears as "et al" or "et al."
+                            info["author"].pop(i)
                     # ensure compatibility with scholarly
                     pub = {"author_id": ["" for a in info["author"]]}
 

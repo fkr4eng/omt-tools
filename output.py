@@ -4,9 +4,9 @@ import sympy as sp
 from ipydex import IPS, activate_ips_on_exception  # noqa
 
 
-omt = p.irkloader.load_mod_from_path(r"C:\Users\Julius Fiedler\Documents\Code\irk\irk-data\omt\omt.py", prefix="omt")
+omt = p.irkloader.load_mod_from_uri(r"irk:/omt/0.1/omt", prefix="omt")
 
-ag = p.irkloader.load_mod_from_path(r"C:\Users\Julius Fiedler\Documents\Code\irk\irk-data\ocse\agents1.py", prefix="ag")
+ag = p.irkloader.load_mod_from_uri(r"irk:/ocse/0.2/agents", prefix="ag")
 
 
 __URI__ = "irk:/ocse/0.2/irk:/omt/mem"
@@ -2564,7 +2564,10 @@ I58157["TiN/GexSe1-x/TiN"].set_relation(R48517["has stack component"], omt.I6130
 
 
 # 2019_xia 
-
+omt.I6130["GexSe1-x"].update_relations(
+    R4__is_instance_of=I99429["stack component"],
+    
+)
 
 
 # 2019_xia 
@@ -2578,7 +2581,10 @@ I27966["TiN/As:SiO2/TiN"].set_relation(R48517["has stack component"], omt.I6131[
 
 
 # 2019_xia 
-
+omt.I6131["As:SiO2"].update_relations(
+    R4__is_instance_of=I99429["stack component"],
+    
+)
 
 
 # 2019_xia 

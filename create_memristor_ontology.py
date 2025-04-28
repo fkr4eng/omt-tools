@@ -21,15 +21,15 @@ random.seed(42)
 # llm_cache_path = "llm_cache.pcl"
 
 
-if omt_path := config_data.get("omt_path"):
-    omt_path = os.path.join(omt_path, "omt.py")
-    assert os.path.isfile(omt_path)
-else:
-    # use hardcoded fallback
-    omt_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "omt")), "omt.py")
+# if omt_path := config_data.get("omt_path"):
+#     omt_path = os.path.join(omt_path, "omt.py")
+#     assert os.path.isfile(omt_path)
+# else:
+#     # use hardcoded fallback
+#     omt_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(p.__file__), "../../..", "irk-data", "omt")), "omt.py")
 
-omt_load_dict = {"path": omt_path, "prefix": "omt", "module_name": "omt"}
-ag_load_dict = {"path": os.path.join(config_data["ocse_path"], "agents1.py"), "prefix": "ag", "module_name": "agents"}
+omt_load_dict = {"uri": "irk:/omt/0.1/omt", "prefix": "omt", "module_name": "omt"}
+ag_load_dict = {"uri": "irk:/ocse/0.2/agents", "prefix": "ag", "module_name": "agents"}
 
 def main():
     CM = ConversionManager("formalized_statements.md", num_keys=1000,

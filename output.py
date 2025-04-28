@@ -203,118 +203,117 @@ I69974 = p.create_item(R1__has_label="publication: Memristors with difusive dyna
 I70494 = p.create_item(R1__has_label="Li, C.")
 I87242 = p.create_item(R1__has_label="publication: Tree-dimensional crossbar arrays of self-rectifying Si/SiO2/Si memristors")
 I93860 = p.create_item(R1__has_label="Midya, R.")
-I78857 = p.create_item(R1__has_label="et al")
-I94601 = p.create_item(R1__has_label="publication: Anatomy of Ag/Hafnia-based selectors with 1010 nonlinearity")
-I52917 = p.create_item(R1__has_label="Huang, J.-J.")
-I86787 = p.create_item(R1__has_label="Tseng, Y.-M.")
-I21123 = p.create_item(R1__has_label="Hsu, C.-W.")
-I39708 = p.create_item(R1__has_label="Hou, T.-H.")
-I93276 = p.create_item(R1__has_label="publication: Bipolar nonlinear Ni/ TiO2/Ni selector for 1S1R crossbar array applications")
-I53205 = p.create_item(R1__has_label="Shin, J.")
-I87136 = p.create_item(R1__has_label="publication: TiO2-based metal–insulator–metal selection device for bipolar resistive random access memory cross-point application")
-I41902 = p.create_item(R1__has_label="Govoreanu, B.")
-I85417 = p.create_item(R1__has_label="publication: High-performance metal–insulator–metal tunnel diode selectors")
-I97657 = p.create_item(R1__has_label="Woo, J.")
-I29872 = p.create_item(R1__has_label="publication: Electrical and reliability characteristics of a scaled (∼30nm) tunnel barrier selector (W/Ta2O5/TaOx/TiO2/TiN) with excellent performance (JMAX>107A/cm2)")
-I21621 = p.create_item(R1__has_label="Lee, W.")
-I87604 = p.create_item(R1__has_label="publication: Varistor-type bidirectional switch (JMAX>107A/cm2 , selectivity ∼104 ) for 3D bipolar resistive memory arrays")
-I58690 = p.create_item(R1__has_label="Choi, B. J.")
-I7533 = p.create_item(R1__has_label="publication: Trilayer tunnel selectors for memristor memory cells")
-I28840 = p.create_item(R1__has_label="Kawahara, A.")
-I49189 = p.create_item(R1__has_label="publication: An 8 Mb multi-layered cross-point ReRAM macro with 443 MB/s write throughput")
-I8849 = p.create_item(R1__has_label="publication: Termally stable integrated Se-based OTS selectors with >20MA/cm2 current drive, >3.103 half-bias nonlinearity, tunable threshold voltage and excellent endurance")
-I74720 = p.create_item(R1__has_label="Kim, S. G.")
-I95219 = p.create_item(R1__has_label="publication: Breakthrough of selector technology for cross-point 25-nm ReRAM")
-I45292 = p.create_item(R1__has_label="Son, M.")
-I90863 = p.create_item(R1__has_label="publication: Excellent selector characteristics of nanoscale VO2 for high-density bipolar ReRAM applications")
-I66609 = p.create_item(R1__has_label="Kim, W. G.")
-I26240 = p.create_item(R1__has_label="publication: NbO2-based low power and cost efective 1S1R switching for high density cross point ReRAM application")
-I16712 = p.create_item(R1__has_label="Cha, E.")
-I26637 = p.create_item(R1__has_label="publication: Nanoscale (∼10nm) 3D vertical ReRAM and NbO2 threshold selector with TiN electrode")
-I73173 = p.create_item(R1__has_label="Lee, M.-J.")
-I77352 = p.create_item(R1__has_label="publication: Highly-scalable threshold switching select device based on chalcogenide glasses for 3D nanoscaled memory arrays")
-I12092 = p.create_item(R1__has_label="Sun, J.")
-I95662 = p.create_item(R1__has_label="publication: Physically transient threshold switching device based on magnesium oxide for security application")
-I50118 = p.create_item(R1__has_label="Wang, G.")
-I52771 = p.create_item(R1__has_label="publication: High‐performance and low‐power rewritable SiO*x* 1 kbit one diode–one resistor crossbar memory array")
-I38213 = p.create_item(R1__has_label="publication: Vacancy-modulated conductive oxide resistive RAM (VMCO-RRAM): an area-scalable switching current, self-compliant, highly nonlinear and wide on/of-window resistive switching cell")
-I9385 = p.create_item(R1__has_label="Song, M.")
-I34131 = p.create_item(R1__has_label="publication: Self-selective characteristics of nanoscale VOx devices for high-density ReRAM applications")
-I47402 = p.create_item(R1__has_label="Lu, D.")
-I8777 = p.create_item(R1__has_label="publication: Investigations of conduction mechanisms of the self-rectifying n<sup>+</sup>Si-HfO2-Ni RRAM devices")
-I61519 = p.create_item(R1__has_label="Wang, M. J.")
-I89808 = p.create_item(R1__has_label="Gao, S.")
-I73802 = p.create_item(R1__has_label="Zeng, F.")
-I63079 = p.create_item(R1__has_label="Song, C.")
-I92934 = p.create_item(R1__has_label="Pan, F.")
-I97154 = p.create_item(R1__has_label="publication: Unipolar resistive switching with forming-free and self-rectifying efects in Cu/HfO2/n-Si devices")
-I84376 = p.create_item(R1__has_label="Kim, K.-H.")
-I72298 = p.create_item(R1__has_label="Jo, S. H.")
-I34559 = p.create_item(R1__has_label="Gaba, S.")
-I83048 = p.create_item(R1__has_label="Lu, W.")
-I71732 = p.create_item(R1__has_label="publication: Nanoscale resistive memory with intrinsic diode characteristics and long endurance")
-I16765 = p.create_item(R1__has_label="Ni/TiO2/Ni")
-I18578 = p.create_item(R1__has_label="Pt/TiO2/TiN")
-I87992 = p.create_item(R1__has_label="TiN/Ta2O5/TiN")
-I44440 = p.create_item(R1__has_label="W/Ta2O5/TaOx/TiO2/TiN")
-I58468 = p.create_item(R1__has_label="Pt/TaOx/TiO2/TaOx/Pt")
-I47470 = p.create_item(R1__has_label="Pt/TaN1+x/Ta2O5/TaN1+x/Pt")
-I82062 = p.create_item(R1__has_label="TaN/SiNx/TaN")
-I58157 = p.create_item(R1__has_label="TiN/GexSe1-x/TiN")
-I27966 = p.create_item(R1__has_label="TiN/As:SiO2/TiN")
-I21352 = p.create_item(R1__has_label="Pt/VO2/Pt")
-I46285 = p.create_item(R1__has_label="TiN/NbO2/TiN")
-I6912 = p.create_item(R1__has_label="TiN/NbO2/W")
-I26347 = p.create_item(R1__has_label="TiN/AsTeGeSiN/TiN")
-I24977 = p.create_item(R1__has_label="W/Ag/MgO/Ag/W")
-I9309 = p.create_item(R1__has_label="Pt/Ag:SiOxNy/Pt")
-I93983 = p.create_item(R1__has_label="Pd/Ag/HfO2/Ag/Pd")
-I18158 = p.create_item(R1__has_label="TiN/Al2O3/TiO2/TiN")
-I63066 = p.create_item(R1__has_label="W/VOx/Pt")
-I55774 = p.create_item(R1__has_label="p-Si/SiO2/n-Si")
-I3236 = p.create_item(R1__has_label="Ni/HfO2/n-Si")
-I95705 = p.create_item(R1__has_label="Cu/HfO2/n-Si")
-I78145 = p.create_item(R1__has_label="Ag/a-Si/p-poly-Si")
-I93419 = p.create_item(R1__has_label="publication: Hardware implementation of memristorbased artificial neural networks")
-I98801 = p.create_item(R1__has_label="Yao, P.")
-I11520 = p.create_item(R1__has_label="publication: Fully hardware-implemented memristor convolutional neural network")
-I47520 = p.create_item(R1__has_label="Cai, F.")
-I59694 = p.create_item(R1__has_label="publication: A fully integrated reprogrammable memristor-CMOS system for efficient multiply-accumulate operations")
-I79160 = p.create_item(R1__has_label="Wan, W.")
-I56829 = p.create_item(R1__has_label="publication: A compute-in-memory chip based on resistive random-access memory")
-I10094 = p.create_item(R1__has_label="Mochida, R.")
-I33159 = p.create_item(R1__has_label="publication: A 4M synapses integrated analog ReRAM based 66.5 TOPS/W neural-network processor with cell current controlled writing and flexible network architecture")
-I42033 = p.create_item(R1__has_label="Su, F.")
-I92000 = p.create_item(R1__has_label="publication: A 462GOPs/J RRAM-based nonvolatile intelligent processor for energy harvesting IoE system featuring nonvolatile logics and processing-in-memory")
-I7940 = p.create_item(R1__has_label="Kiani, F.")
-I69530 = p.create_item(R1__has_label="Yin, J.")
-I68259 = p.create_item(R1__has_label="Joshua Yang, J.")
-I29098 = p.create_item(R1__has_label="Xia, Q.")
-I82346 = p.create_item(R1__has_label="publication: A fully hardware-based memristive multilayer neural network")
-I90071 = p.create_item(R1__has_label="publication: CMOS-integrated nanoscale memristive crossbars for CNN and optimization acceleration")
-I88962 = p.create_item(R1__has_label="Pedretti, G.")
-I12398 = p.create_item(R1__has_label="publication: Redundancy and analog slicing for precise inmemory machine learning - Part I: Programming techniques")
-I33364 = p.create_item(R1__has_label="publication: Redundancy and analog slicing for precise inmemory machine learning - Part II: Applications and benchmark")
-I8173 = p.create_item(R1__has_label="publication: Fully memristive neural networks for pattern classification with unsupervised learning")
-I98878 = p.create_item(R1__has_label="Bocquet, M.")
-I76458 = p.create_item(R1__has_label="publication: In-memory and error-immune differential RRAM implementation of binarized deep neural networks")
-I23249 = p.create_item(R1__has_label="Chen, W. H.")
-I38620 = p.create_item(R1__has_label="publication: CMOS-integrated memristive non-volatile computing-in-memory for AI edge processors")
-I76087 = p.create_item(R1__has_label="Hirtzlin, T.")
-I48237 = p.create_item(R1__has_label="publication: Digital biologically plausible implementation of binarized neural networks with differential hafnium oxide resistive memory arrays")
-I61398 = p.create_item(R1__has_label="Wu, T. F.")
-I99103 = p.create_item(R1__has_label="publication: A 43pJ/Cycle Non-Volatile Microcontroller with 4.7μs Shutdown/Wake-up Integrating 2.3-bit/Cell Resistive RAM and Resilience Techniques")
-I28976 = p.create_item(R1__has_label="Au/Pd/WOx/Au")
-I66639 = p.create_item(R1__has_label="TiN/TaOx/HfOx/TiN")
-I34380 = p.create_item(R1__has_label="Pt/Ta/Ta2O5/Pt/Ti")
-I37464 = p.create_item(R1__has_label="Ta/TaOx/Pt")
-I11681 = p.create_item(R1__has_label="W/TiN/TiON")
-I41069 = p.create_item(R1__has_label="Pt/SiOxAg/Pt/Ti")
-I5868 = p.create_item(R1__has_label="Ta/Pd/HfO2/Pt/Ti")
-I61689 = p.create_item(R1__has_label="TiN/HfO2/Ti/TiN")
-I37167 = p.create_item(R1__has_label="W/Ta2O5/TaOx/W")
-I12287 = p.create_item(R1__has_label="AlCu/TiN/Ti/HfO2/TiN")
-I29376 = p.create_item(R1__has_label="TiN/HfO2/TaOx/TiN")
+I78857 = p.create_item(R1__has_label="publication: Anatomy of Ag/Hafnia-based selectors with 1010 nonlinearity")
+I94601 = p.create_item(R1__has_label="Huang, J.-J.")
+I52917 = p.create_item(R1__has_label="Tseng, Y.-M.")
+I86787 = p.create_item(R1__has_label="Hsu, C.-W.")
+I21123 = p.create_item(R1__has_label="Hou, T.-H.")
+I39708 = p.create_item(R1__has_label="publication: Bipolar nonlinear Ni/ TiO2/Ni selector for 1S1R crossbar array applications")
+I93276 = p.create_item(R1__has_label="Shin, J.")
+I53205 = p.create_item(R1__has_label="publication: TiO2-based metal–insulator–metal selection device for bipolar resistive random access memory cross-point application")
+I87136 = p.create_item(R1__has_label="Govoreanu, B.")
+I41902 = p.create_item(R1__has_label="publication: High-performance metal–insulator–metal tunnel diode selectors")
+I85417 = p.create_item(R1__has_label="Woo, J.")
+I97657 = p.create_item(R1__has_label="publication: Electrical and reliability characteristics of a scaled (∼30nm) tunnel barrier selector (W/Ta2O5/TaOx/TiO2/TiN) with excellent performance (JMAX>107A/cm2)")
+I29872 = p.create_item(R1__has_label="Lee, W.")
+I21621 = p.create_item(R1__has_label="publication: Varistor-type bidirectional switch (JMAX>107A/cm2 , selectivity ∼104 ) for 3D bipolar resistive memory arrays")
+I87604 = p.create_item(R1__has_label="Choi, B. J.")
+I58690 = p.create_item(R1__has_label="publication: Trilayer tunnel selectors for memristor memory cells")
+I7533 = p.create_item(R1__has_label="Kawahara, A.")
+I28840 = p.create_item(R1__has_label="publication: An 8 Mb multi-layered cross-point ReRAM macro with 443 MB/s write throughput")
+I49189 = p.create_item(R1__has_label="publication: Termally stable integrated Se-based OTS selectors with >20MA/cm2 current drive, >3.103 half-bias nonlinearity, tunable threshold voltage and excellent endurance")
+I8849 = p.create_item(R1__has_label="Kim, S. G.")
+I74720 = p.create_item(R1__has_label="publication: Breakthrough of selector technology for cross-point 25-nm ReRAM")
+I95219 = p.create_item(R1__has_label="Son, M.")
+I45292 = p.create_item(R1__has_label="publication: Excellent selector characteristics of nanoscale VO2 for high-density bipolar ReRAM applications")
+I90863 = p.create_item(R1__has_label="Kim, W. G.")
+I66609 = p.create_item(R1__has_label="publication: NbO2-based low power and cost efective 1S1R switching for high density cross point ReRAM application")
+I26240 = p.create_item(R1__has_label="Cha, E.")
+I16712 = p.create_item(R1__has_label="publication: Nanoscale (∼10nm) 3D vertical ReRAM and NbO2 threshold selector with TiN electrode")
+I26637 = p.create_item(R1__has_label="Lee, M.-J.")
+I73173 = p.create_item(R1__has_label="publication: Highly-scalable threshold switching select device based on chalcogenide glasses for 3D nanoscaled memory arrays")
+I77352 = p.create_item(R1__has_label="Sun, J.")
+I12092 = p.create_item(R1__has_label="publication: Physically transient threshold switching device based on magnesium oxide for security application")
+I95662 = p.create_item(R1__has_label="Wang, G.")
+I50118 = p.create_item(R1__has_label="publication: High‐performance and low‐power rewritable SiO*x* 1 kbit one diode–one resistor crossbar memory array")
+I52771 = p.create_item(R1__has_label="publication: Vacancy-modulated conductive oxide resistive RAM (VMCO-RRAM): an area-scalable switching current, self-compliant, highly nonlinear and wide on/of-window resistive switching cell")
+I38213 = p.create_item(R1__has_label="Song, M.")
+I9385 = p.create_item(R1__has_label="publication: Self-selective characteristics of nanoscale VOx devices for high-density ReRAM applications")
+I34131 = p.create_item(R1__has_label="Lu, D.")
+I47402 = p.create_item(R1__has_label="publication: Investigations of conduction mechanisms of the self-rectifying n<sup>+</sup>Si-HfO2-Ni RRAM devices")
+I8777 = p.create_item(R1__has_label="Wang, M. J.")
+I61519 = p.create_item(R1__has_label="Gao, S.")
+I89808 = p.create_item(R1__has_label="Zeng, F.")
+I73802 = p.create_item(R1__has_label="Song, C.")
+I63079 = p.create_item(R1__has_label="Pan, F.")
+I92934 = p.create_item(R1__has_label="publication: Unipolar resistive switching with forming-free and self-rectifying efects in Cu/HfO2/n-Si devices")
+I97154 = p.create_item(R1__has_label="Kim, K.-H.")
+I84376 = p.create_item(R1__has_label="Jo, S. H.")
+I72298 = p.create_item(R1__has_label="Gaba, S.")
+I34559 = p.create_item(R1__has_label="Lu, W.")
+I83048 = p.create_item(R1__has_label="publication: Nanoscale resistive memory with intrinsic diode characteristics and long endurance")
+I71732 = p.create_item(R1__has_label="Ni/TiO2/Ni")
+I16765 = p.create_item(R1__has_label="Pt/TiO2/TiN")
+I18578 = p.create_item(R1__has_label="TiN/Ta2O5/TiN")
+I87992 = p.create_item(R1__has_label="W/Ta2O5/TaOx/TiO2/TiN")
+I44440 = p.create_item(R1__has_label="Pt/TaOx/TiO2/TaOx/Pt")
+I58468 = p.create_item(R1__has_label="Pt/TaN1+x/Ta2O5/TaN1+x/Pt")
+I47470 = p.create_item(R1__has_label="TaN/SiNx/TaN")
+I82062 = p.create_item(R1__has_label="TiN/GexSe1-x/TiN")
+I58157 = p.create_item(R1__has_label="TiN/As:SiO2/TiN")
+I27966 = p.create_item(R1__has_label="Pt/VO2/Pt")
+I21352 = p.create_item(R1__has_label="TiN/NbO2/TiN")
+I46285 = p.create_item(R1__has_label="TiN/NbO2/W")
+I6912 = p.create_item(R1__has_label="TiN/AsTeGeSiN/TiN")
+I26347 = p.create_item(R1__has_label="W/Ag/MgO/Ag/W")
+I24977 = p.create_item(R1__has_label="Pt/Ag:SiOxNy/Pt")
+I9309 = p.create_item(R1__has_label="Pd/Ag/HfO2/Ag/Pd")
+I93983 = p.create_item(R1__has_label="TiN/Al2O3/TiO2/TiN")
+I18158 = p.create_item(R1__has_label="W/VOx/Pt")
+I63066 = p.create_item(R1__has_label="p-Si/SiO2/n-Si")
+I55774 = p.create_item(R1__has_label="Ni/HfO2/n-Si")
+I3236 = p.create_item(R1__has_label="Cu/HfO2/n-Si")
+I95705 = p.create_item(R1__has_label="Ag/a-Si/p-poly-Si")
+I78145 = p.create_item(R1__has_label="publication: Hardware implementation of memristorbased artificial neural networks")
+I93419 = p.create_item(R1__has_label="Yao, P.")
+I98801 = p.create_item(R1__has_label="publication: Fully hardware-implemented memristor convolutional neural network")
+I11520 = p.create_item(R1__has_label="Cai, F.")
+I47520 = p.create_item(R1__has_label="publication: A fully integrated reprogrammable memristor-CMOS system for efficient multiply-accumulate operations")
+I59694 = p.create_item(R1__has_label="Wan, W.")
+I79160 = p.create_item(R1__has_label="publication: A compute-in-memory chip based on resistive random-access memory")
+I56829 = p.create_item(R1__has_label="Mochida, R.")
+I10094 = p.create_item(R1__has_label="publication: A 4M synapses integrated analog ReRAM based 66.5 TOPS/W neural-network processor with cell current controlled writing and flexible network architecture")
+I33159 = p.create_item(R1__has_label="Su, F.")
+I42033 = p.create_item(R1__has_label="publication: A 462GOPs/J RRAM-based nonvolatile intelligent processor for energy harvesting IoE system featuring nonvolatile logics and processing-in-memory")
+I92000 = p.create_item(R1__has_label="Kiani, F.")
+I7940 = p.create_item(R1__has_label="Yin, J.")
+I69530 = p.create_item(R1__has_label="Joshua Yang, J.")
+I68259 = p.create_item(R1__has_label="Xia, Q.")
+I29098 = p.create_item(R1__has_label="publication: A fully hardware-based memristive multilayer neural network")
+I82346 = p.create_item(R1__has_label="publication: CMOS-integrated nanoscale memristive crossbars for CNN and optimization acceleration")
+I90071 = p.create_item(R1__has_label="Pedretti, G.")
+I88962 = p.create_item(R1__has_label="publication: Redundancy and analog slicing for precise inmemory machine learning - Part I: Programming techniques")
+I12398 = p.create_item(R1__has_label="publication: Redundancy and analog slicing for precise inmemory machine learning - Part II: Applications and benchmark")
+I33364 = p.create_item(R1__has_label="publication: Fully memristive neural networks for pattern classification with unsupervised learning")
+I8173 = p.create_item(R1__has_label="Bocquet, M.")
+I98878 = p.create_item(R1__has_label="publication: In-memory and error-immune differential RRAM implementation of binarized deep neural networks")
+I76458 = p.create_item(R1__has_label="Chen, W. H.")
+I23249 = p.create_item(R1__has_label="publication: CMOS-integrated memristive non-volatile computing-in-memory for AI edge processors")
+I38620 = p.create_item(R1__has_label="Hirtzlin, T.")
+I76087 = p.create_item(R1__has_label="publication: Digital biologically plausible implementation of binarized neural networks with differential hafnium oxide resistive memory arrays")
+I48237 = p.create_item(R1__has_label="Wu, T. F.")
+I61398 = p.create_item(R1__has_label="publication: A 43pJ/Cycle Non-Volatile Microcontroller with 4.7μs Shutdown/Wake-up Integrating 2.3-bit/Cell Resistive RAM and Resilience Techniques")
+I99103 = p.create_item(R1__has_label="Au/Pd/WOx/Au")
+I28976 = p.create_item(R1__has_label="TiN/TaOx/HfOx/TiN")
+I66639 = p.create_item(R1__has_label="Pt/Ta/Ta2O5/Pt/Ti")
+I34380 = p.create_item(R1__has_label="Ta/TaOx/Pt")
+I37464 = p.create_item(R1__has_label="W/TiN/TiON")
+I11681 = p.create_item(R1__has_label="Pt/SiOxAg/Pt/Ti")
+I41069 = p.create_item(R1__has_label="Ta/Pd/HfO2/Pt/Ti")
+I5868 = p.create_item(R1__has_label="TiN/HfO2/Ti/TiN")
+I61689 = p.create_item(R1__has_label="W/Ta2O5/TaOx/W")
+I37167 = p.create_item(R1__has_label="AlCu/TiN/Ti/HfO2/TiN")
+I47202 = p.create_item(R1__has_label="TiN/HfO2/TaOx/TiN")
 
 
 ########################################################################################################################
@@ -1934,27 +1933,27 @@ I35428["publication: Memristive crossbar arrays for brain-inspired computing"].u
 )
 I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I69974["publication: Memristors with difusive dynamics as synaptic emulators for neuromorphic computing"], qualifiers=[has_citation_id(33), ])
 I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I87242["publication: Tree-dimensional crossbar arrays of self-rectifying Si/SiO2/Si memristors"], qualifiers=[has_citation_id(54), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I94601["publication: Anatomy of Ag/Hafnia-based selectors with 1010 nonlinearity"], qualifiers=[has_citation_id(92), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I93276["publication: Bipolar nonlinear Ni/ TiO2/Ni selector for 1S1R crossbar array applications"], qualifiers=[has_citation_id(94), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I87136["publication: TiO2-based metal–insulator–metal selection device for bipolar resistive random access memory cross-point application"], qualifiers=[has_citation_id(95), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I85417["publication: High-performance metal–insulator–metal tunnel diode selectors"], qualifiers=[has_citation_id(96), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I29872["publication: Electrical and reliability characteristics of a scaled (∼30nm) tunnel barrier selector (W/Ta2O5/TaOx/TiO2/TiN) with excellent performance (JMAX>107A/cm2)"], qualifiers=[has_citation_id(97), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I87604["publication: Varistor-type bidirectional switch (JMAX>107A/cm2 , selectivity ∼104 ) for 3D bipolar resistive memory arrays"], qualifiers=[has_citation_id(98), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I7533["publication: Trilayer tunnel selectors for memristor memory cells"], qualifiers=[has_citation_id(99), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I49189["publication: An 8 Mb multi-layered cross-point ReRAM macro with 443 MB/s write throughput"], qualifiers=[has_citation_id(100), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I8849["publication: Termally stable integrated Se-based OTS selectors with >20MA/cm2 current drive, >3.103 half-bias nonlinearity, tunable threshold voltage and excellent endurance"], qualifiers=[has_citation_id(102), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I95219["publication: Breakthrough of selector technology for cross-point 25-nm ReRAM"], qualifiers=[has_citation_id(106), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I90863["publication: Excellent selector characteristics of nanoscale VO2 for high-density bipolar ReRAM applications"], qualifiers=[has_citation_id(107), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I26240["publication: NbO2-based low power and cost efective 1S1R switching for high density cross point ReRAM application"], qualifiers=[has_citation_id(108), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I26637["publication: Nanoscale (∼10nm) 3D vertical ReRAM and NbO2 threshold selector with TiN electrode"], qualifiers=[has_citation_id(109), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I77352["publication: Highly-scalable threshold switching select device based on chalcogenide glasses for 3D nanoscaled memory arrays"], qualifiers=[has_citation_id(110), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I95662["publication: Physically transient threshold switching device based on magnesium oxide for security application"], qualifiers=[has_citation_id(111), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I52771["publication: High‐performance and low‐power rewritable SiO*x* 1 kbit one diode–one resistor crossbar memory array"], qualifiers=[has_citation_id(114), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I38213["publication: Vacancy-modulated conductive oxide resistive RAM (VMCO-RRAM): an area-scalable switching current, self-compliant, highly nonlinear and wide on/of-window resistive switching cell"], qualifiers=[has_citation_id(115), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I34131["publication: Self-selective characteristics of nanoscale VOx devices for high-density ReRAM applications"], qualifiers=[has_citation_id(116), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I8777["publication: Investigations of conduction mechanisms of the self-rectifying n<sup>+</sup>Si-HfO2-Ni RRAM devices"], qualifiers=[has_citation_id(117), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I97154["publication: Unipolar resistive switching with forming-free and self-rectifying efects in Cu/HfO2/n-Si devices"], qualifiers=[has_citation_id(118), ])
-I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I71732["publication: Nanoscale resistive memory with intrinsic diode characteristics and long endurance"], qualifiers=[has_citation_id(119), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I78857["publication: Anatomy of Ag/Hafnia-based selectors with 1010 nonlinearity"], qualifiers=[has_citation_id(92), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I39708["publication: Bipolar nonlinear Ni/ TiO2/Ni selector for 1S1R crossbar array applications"], qualifiers=[has_citation_id(94), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I53205["publication: TiO2-based metal–insulator–metal selection device for bipolar resistive random access memory cross-point application"], qualifiers=[has_citation_id(95), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I41902["publication: High-performance metal–insulator–metal tunnel diode selectors"], qualifiers=[has_citation_id(96), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I97657["publication: Electrical and reliability characteristics of a scaled (∼30nm) tunnel barrier selector (W/Ta2O5/TaOx/TiO2/TiN) with excellent performance (JMAX>107A/cm2)"], qualifiers=[has_citation_id(97), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I21621["publication: Varistor-type bidirectional switch (JMAX>107A/cm2 , selectivity ∼104 ) for 3D bipolar resistive memory arrays"], qualifiers=[has_citation_id(98), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I58690["publication: Trilayer tunnel selectors for memristor memory cells"], qualifiers=[has_citation_id(99), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I28840["publication: An 8 Mb multi-layered cross-point ReRAM macro with 443 MB/s write throughput"], qualifiers=[has_citation_id(100), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I49189["publication: Termally stable integrated Se-based OTS selectors with >20MA/cm2 current drive, >3.103 half-bias nonlinearity, tunable threshold voltage and excellent endurance"], qualifiers=[has_citation_id(102), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I74720["publication: Breakthrough of selector technology for cross-point 25-nm ReRAM"], qualifiers=[has_citation_id(106), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I45292["publication: Excellent selector characteristics of nanoscale VO2 for high-density bipolar ReRAM applications"], qualifiers=[has_citation_id(107), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I66609["publication: NbO2-based low power and cost efective 1S1R switching for high density cross point ReRAM application"], qualifiers=[has_citation_id(108), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I16712["publication: Nanoscale (∼10nm) 3D vertical ReRAM and NbO2 threshold selector with TiN electrode"], qualifiers=[has_citation_id(109), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I73173["publication: Highly-scalable threshold switching select device based on chalcogenide glasses for 3D nanoscaled memory arrays"], qualifiers=[has_citation_id(110), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I12092["publication: Physically transient threshold switching device based on magnesium oxide for security application"], qualifiers=[has_citation_id(111), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I50118["publication: High‐performance and low‐power rewritable SiO*x* 1 kbit one diode–one resistor crossbar memory array"], qualifiers=[has_citation_id(114), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I52771["publication: Vacancy-modulated conductive oxide resistive RAM (VMCO-RRAM): an area-scalable switching current, self-compliant, highly nonlinear and wide on/of-window resistive switching cell"], qualifiers=[has_citation_id(115), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I9385["publication: Self-selective characteristics of nanoscale VOx devices for high-density ReRAM applications"], qualifiers=[has_citation_id(116), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I47402["publication: Investigations of conduction mechanisms of the self-rectifying n<sup>+</sup>Si-HfO2-Ni RRAM devices"], qualifiers=[has_citation_id(117), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I92934["publication: Unipolar resistive switching with forming-free and self-rectifying efects in Cu/HfO2/n-Si devices"], qualifiers=[has_citation_id(118), ])
+I35428["publication: Memristive crossbar arrays for brain-inspired computing"].set_relation(ag.R8440["cites"], I83048["publication: Nanoscale resistive memory with intrinsic diode characteristics and long endurance"], qualifiers=[has_citation_id(119), ])
 
 
 # 2019_xia 
@@ -1971,7 +1970,7 @@ I69974["publication: Memristors with difusive dynamics as synaptic emulators for
     ag__R8433__has_authors=I10778["Wang, Z."],
     ag__R8434__has_title="Memristors with difusive dynamics as synaptic emulators for neuromorphic computing",
     ag__R8435__has_year=2017,
-    R11809__has_memristor_stack=I9309["Pt/Ag:SiOxNy/Pt"],
+    R11809__has_memristor_stack=I24977["Pt/Ag:SiOxNy/Pt"],
     
 )
 
@@ -1990,7 +1989,7 @@ I87242["publication: Tree-dimensional crossbar arrays of self-rectifying Si/SiO2
     ag__R8433__has_authors=I70494["Li, C."],
     ag__R8434__has_title="Tree-dimensional crossbar arrays of self-rectifying Si/SiO2/Si memristors",
     ag__R8435__has_year=2017,
-    R11809__has_memristor_stack=I55774["p-Si/SiO2/n-Si"],
+    R11809__has_memristor_stack=I63066["p-Si/SiO2/n-Si"],
     
 )
 
@@ -2004,26 +2003,18 @@ I93860["Midya, R."].update_relations(
 
 
 # 2019_xia 
-I78857["et al"].update_relations(
-    R4__is_instance_of=ag.I7435["human"],
-    ag__R7781__has_family_name="et al",
-    
-)
-
-
-# 2019_xia 
-I94601["publication: Anatomy of Ag/Hafnia-based selectors with 1010 nonlinearity"].update_relations(
+I78857["publication: Anatomy of Ag/Hafnia-based selectors with 1010 nonlinearity"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=[I93860["Midya, R."], I78857["et al"]],
+    ag__R8433__has_authors=I93860["Midya, R."],
     ag__R8434__has_title="Anatomy of Ag/Hafnia-based selectors with 1010 nonlinearity",
     ag__R8435__has_year=2017,
-    R11809__has_memristor_stack=I93983["Pd/Ag/HfO2/Ag/Pd"],
+    R11809__has_memristor_stack=I9309["Pd/Ag/HfO2/Ag/Pd"],
     
 )
 
 
 # 2019_xia 
-I52917["Huang, J.-J."].update_relations(
+I94601["Huang, J.-J."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Huang, J.-J.",
     
@@ -2031,7 +2022,7 @@ I52917["Huang, J.-J."].update_relations(
 
 
 # 2019_xia 
-I86787["Tseng, Y.-M."].update_relations(
+I52917["Tseng, Y.-M."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Tseng, Y.-M.",
     
@@ -2039,7 +2030,7 @@ I86787["Tseng, Y.-M."].update_relations(
 
 
 # 2019_xia 
-I21123["Hsu, C.-W."].update_relations(
+I86787["Hsu, C.-W."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Hsu, C.-W.",
     
@@ -2047,7 +2038,7 @@ I21123["Hsu, C.-W."].update_relations(
 
 
 # 2019_xia 
-I39708["Hou, T.-H."].update_relations(
+I21123["Hou, T.-H."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Hou, T.-H.",
     
@@ -2055,18 +2046,18 @@ I39708["Hou, T.-H."].update_relations(
 
 
 # 2019_xia 
-I93276["publication: Bipolar nonlinear Ni/ TiO2/Ni selector for 1S1R crossbar array applications"].update_relations(
+I39708["publication: Bipolar nonlinear Ni/ TiO2/Ni selector for 1S1R crossbar array applications"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=[I52917["Huang, J.-J."], I86787["Tseng, Y.-M."], I21123["Hsu, C.-W."], I39708["Hou, T.-H."]],
+    ag__R8433__has_authors=[I94601["Huang, J.-J."], I52917["Tseng, Y.-M."], I86787["Hsu, C.-W."], I21123["Hou, T.-H."]],
     ag__R8434__has_title="Bipolar nonlinear Ni/ TiO2/Ni selector for 1S1R crossbar array applications",
     ag__R8435__has_year=2011,
-    R11809__has_memristor_stack=I16765["Ni/TiO2/Ni"],
+    R11809__has_memristor_stack=I71732["Ni/TiO2/Ni"],
     
 )
 
 
 # 2019_xia 
-I53205["Shin, J."].update_relations(
+I93276["Shin, J."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Shin, J.",
     
@@ -2074,18 +2065,18 @@ I53205["Shin, J."].update_relations(
 
 
 # 2019_xia 
-I87136["publication: TiO2-based metal–insulator–metal selection device for bipolar resistive random access memory cross-point application"].update_relations(
+I53205["publication: TiO2-based metal–insulator–metal selection device for bipolar resistive random access memory cross-point application"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I53205["Shin, J."],
+    ag__R8433__has_authors=I93276["Shin, J."],
     ag__R8434__has_title="TiO2-based metal–insulator–metal selection device for bipolar resistive random access memory cross-point application",
     ag__R8435__has_year=2011,
-    R11809__has_memristor_stack=I18578["Pt/TiO2/TiN"],
+    R11809__has_memristor_stack=I16765["Pt/TiO2/TiN"],
     
 )
 
 
 # 2019_xia 
-I41902["Govoreanu, B."].update_relations(
+I87136["Govoreanu, B."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Govoreanu, B.",
     
@@ -2093,18 +2084,18 @@ I41902["Govoreanu, B."].update_relations(
 
 
 # 2019_xia 
-I85417["publication: High-performance metal–insulator–metal tunnel diode selectors"].update_relations(
+I41902["publication: High-performance metal–insulator–metal tunnel diode selectors"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I41902["Govoreanu, B."],
+    ag__R8433__has_authors=I87136["Govoreanu, B."],
     ag__R8434__has_title="High-performance metal–insulator–metal tunnel diode selectors",
     ag__R8435__has_year=2014,
-    R11809__has_memristor_stack=I87992["TiN/Ta2O5/TiN"],
+    R11809__has_memristor_stack=I18578["TiN/Ta2O5/TiN"],
     
 )
 
 
 # 2019_xia 
-I97657["Woo, J."].update_relations(
+I85417["Woo, J."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Woo, J.",
     
@@ -2112,18 +2103,18 @@ I97657["Woo, J."].update_relations(
 
 
 # 2019_xia 
-I29872["publication: Electrical and reliability characteristics of a scaled (∼30nm) tunnel barrier selector (W/Ta2O5/TaOx/TiO2/TiN) with excellent performance (JMAX>107A/cm2)"].update_relations(
+I97657["publication: Electrical and reliability characteristics of a scaled (∼30nm) tunnel barrier selector (W/Ta2O5/TaOx/TiO2/TiN) with excellent performance (JMAX>107A/cm2)"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I97657["Woo, J."],
+    ag__R8433__has_authors=I85417["Woo, J."],
     ag__R8434__has_title="Electrical and reliability characteristics of a scaled (∼30nm) tunnel barrier selector (W/Ta2O5/TaOx/TiO2/TiN) with excellent performance (JMAX>107A/cm2)",
     ag__R8435__has_year=2014,
-    R11809__has_memristor_stack=I44440["W/Ta2O5/TaOx/TiO2/TiN"],
+    R11809__has_memristor_stack=I87992["W/Ta2O5/TaOx/TiO2/TiN"],
     
 )
 
 
 # 2019_xia 
-I21621["Lee, W."].update_relations(
+I29872["Lee, W."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Lee, W.",
     
@@ -2131,18 +2122,18 @@ I21621["Lee, W."].update_relations(
 
 
 # 2019_xia 
-I87604["publication: Varistor-type bidirectional switch (JMAX>107A/cm2 , selectivity ∼104 ) for 3D bipolar resistive memory arrays"].update_relations(
+I21621["publication: Varistor-type bidirectional switch (JMAX>107A/cm2 , selectivity ∼104 ) for 3D bipolar resistive memory arrays"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=[I21621["Lee, W."], I78857["et al"]],
+    ag__R8433__has_authors=I29872["Lee, W."],
     ag__R8434__has_title="Varistor-type bidirectional switch (JMAX>107A/cm2 , selectivity ∼104 ) for 3D bipolar resistive memory arrays",
     ag__R8435__has_year=2012,
-    R11809__has_memristor_stack=I58468["Pt/TaOx/TiO2/TaOx/Pt"],
+    R11809__has_memristor_stack=I44440["Pt/TaOx/TiO2/TaOx/Pt"],
     
 )
 
 
 # 2019_xia 
-I58690["Choi, B. J."].update_relations(
+I87604["Choi, B. J."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Choi, B. J.",
     
@@ -2150,18 +2141,18 @@ I58690["Choi, B. J."].update_relations(
 
 
 # 2019_xia 
-I7533["publication: Trilayer tunnel selectors for memristor memory cells"].update_relations(
+I58690["publication: Trilayer tunnel selectors for memristor memory cells"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I58690["Choi, B. J."],
+    ag__R8433__has_authors=I87604["Choi, B. J."],
     ag__R8434__has_title="Trilayer tunnel selectors for memristor memory cells",
     ag__R8435__has_year=2016,
-    R11809__has_memristor_stack=I47470["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"],
+    R11809__has_memristor_stack=I58468["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"],
     
 )
 
 
 # 2019_xia 
-I28840["Kawahara, A."].update_relations(
+I7533["Kawahara, A."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Kawahara, A.",
     
@@ -2169,29 +2160,29 @@ I28840["Kawahara, A."].update_relations(
 
 
 # 2019_xia 
-I49189["publication: An 8 Mb multi-layered cross-point ReRAM macro with 443 MB/s write throughput"].update_relations(
+I28840["publication: An 8 Mb multi-layered cross-point ReRAM macro with 443 MB/s write throughput"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I28840["Kawahara, A."],
+    ag__R8433__has_authors=I7533["Kawahara, A."],
     ag__R8434__has_title="An 8 Mb multi-layered cross-point ReRAM macro with 443 MB/s write throughput",
     ag__R8435__has_year=2013,
-    R11809__has_memristor_stack=I82062["TaN/SiNx/TaN"],
+    R11809__has_memristor_stack=I47470["TaN/SiNx/TaN"],
     
 )
 
 
 # 2019_xia 
-I8849["publication: Termally stable integrated Se-based OTS selectors with >20MA/cm2 current drive, >3.103 half-bias nonlinearity, tunable threshold voltage and excellent endurance"].update_relations(
+I49189["publication: Termally stable integrated Se-based OTS selectors with >20MA/cm2 current drive, >3.103 half-bias nonlinearity, tunable threshold voltage and excellent endurance"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I41902["Govoreanu, B."],
+    ag__R8433__has_authors=I87136["Govoreanu, B."],
     ag__R8434__has_title="Termally stable integrated Se-based OTS selectors with >20MA/cm2 current drive, >3.103 half-bias nonlinearity, tunable threshold voltage and excellent endurance",
     ag__R8435__has_year=2017,
-    R11809__has_memristor_stack=I58157["TiN/GexSe1-x/TiN"],
+    R11809__has_memristor_stack=I82062["TiN/GexSe1-x/TiN"],
     
 )
 
 
 # 2019_xia 
-I74720["Kim, S. G."].update_relations(
+I8849["Kim, S. G."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Kim, S. G.",
     
@@ -2199,18 +2190,18 @@ I74720["Kim, S. G."].update_relations(
 
 
 # 2019_xia 
-I95219["publication: Breakthrough of selector technology for cross-point 25-nm ReRAM"].update_relations(
+I74720["publication: Breakthrough of selector technology for cross-point 25-nm ReRAM"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I74720["Kim, S. G."],
+    ag__R8433__has_authors=I8849["Kim, S. G."],
     ag__R8434__has_title="Breakthrough of selector technology for cross-point 25-nm ReRAM",
     ag__R8435__has_year=2017,
-    R11809__has_memristor_stack=I27966["TiN/As:SiO2/TiN"],
+    R11809__has_memristor_stack=I58157["TiN/As:SiO2/TiN"],
     
 )
 
 
 # 2019_xia 
-I45292["Son, M."].update_relations(
+I95219["Son, M."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Son, M.",
     
@@ -2218,18 +2209,18 @@ I45292["Son, M."].update_relations(
 
 
 # 2019_xia 
-I90863["publication: Excellent selector characteristics of nanoscale VO2 for high-density bipolar ReRAM applications"].update_relations(
+I45292["publication: Excellent selector characteristics of nanoscale VO2 for high-density bipolar ReRAM applications"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I45292["Son, M."],
+    ag__R8433__has_authors=I95219["Son, M."],
     ag__R8434__has_title="Excellent selector characteristics of nanoscale VO2 for high-density bipolar ReRAM applications",
     ag__R8435__has_year=2011,
-    R11809__has_memristor_stack=I21352["Pt/VO2/Pt"],
+    R11809__has_memristor_stack=I27966["Pt/VO2/Pt"],
     
 )
 
 
 # 2019_xia 
-I66609["Kim, W. G."].update_relations(
+I90863["Kim, W. G."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Kim, W. G.",
     
@@ -2237,18 +2228,18 @@ I66609["Kim, W. G."].update_relations(
 
 
 # 2019_xia 
-I26240["publication: NbO2-based low power and cost efective 1S1R switching for high density cross point ReRAM application"].update_relations(
+I66609["publication: NbO2-based low power and cost efective 1S1R switching for high density cross point ReRAM application"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I66609["Kim, W. G."],
+    ag__R8433__has_authors=I90863["Kim, W. G."],
     ag__R8434__has_title="NbO2-based low power and cost efective 1S1R switching for high density cross point ReRAM application",
     ag__R8435__has_year=2014,
-    R11809__has_memristor_stack=I46285["TiN/NbO2/TiN"],
+    R11809__has_memristor_stack=I21352["TiN/NbO2/TiN"],
     
 )
 
 
 # 2019_xia 
-I16712["Cha, E."].update_relations(
+I26240["Cha, E."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Cha, E.",
     
@@ -2256,18 +2247,18 @@ I16712["Cha, E."].update_relations(
 
 
 # 2019_xia 
-I26637["publication: Nanoscale (∼10nm) 3D vertical ReRAM and NbO2 threshold selector with TiN electrode"].update_relations(
+I16712["publication: Nanoscale (∼10nm) 3D vertical ReRAM and NbO2 threshold selector with TiN electrode"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I16712["Cha, E."],
+    ag__R8433__has_authors=I26240["Cha, E."],
     ag__R8434__has_title="Nanoscale (∼10nm) 3D vertical ReRAM and NbO2 threshold selector with TiN electrode",
     ag__R8435__has_year=2013,
-    R11809__has_memristor_stack=I6912["TiN/NbO2/W"],
+    R11809__has_memristor_stack=I46285["TiN/NbO2/W"],
     
 )
 
 
 # 2019_xia 
-I73173["Lee, M.-J."].update_relations(
+I26637["Lee, M.-J."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Lee, M.-J.",
     
@@ -2275,18 +2266,18 @@ I73173["Lee, M.-J."].update_relations(
 
 
 # 2019_xia 
-I77352["publication: Highly-scalable threshold switching select device based on chalcogenide glasses for 3D nanoscaled memory arrays"].update_relations(
+I73173["publication: Highly-scalable threshold switching select device based on chalcogenide glasses for 3D nanoscaled memory arrays"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I73173["Lee, M.-J."],
+    ag__R8433__has_authors=I26637["Lee, M.-J."],
     ag__R8434__has_title="Highly-scalable threshold switching select device based on chalcogenide glasses for 3D nanoscaled memory arrays",
     ag__R8435__has_year=2012,
-    R11809__has_memristor_stack=I26347["TiN/AsTeGeSiN/TiN"],
+    R11809__has_memristor_stack=I6912["TiN/AsTeGeSiN/TiN"],
     
 )
 
 
 # 2019_xia 
-I12092["Sun, J."].update_relations(
+I77352["Sun, J."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Sun, J.",
     
@@ -2294,18 +2285,18 @@ I12092["Sun, J."].update_relations(
 
 
 # 2019_xia 
-I95662["publication: Physically transient threshold switching device based on magnesium oxide for security application"].update_relations(
+I12092["publication: Physically transient threshold switching device based on magnesium oxide for security application"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I12092["Sun, J."],
+    ag__R8433__has_authors=I77352["Sun, J."],
     ag__R8434__has_title="Physically transient threshold switching device based on magnesium oxide for security application",
     ag__R8435__has_year=2018,
-    R11809__has_memristor_stack=I24977["W/Ag/MgO/Ag/W"],
+    R11809__has_memristor_stack=I26347["W/Ag/MgO/Ag/W"],
     
 )
 
 
 # 2019_xia 
-I50118["Wang, G."].update_relations(
+I95662["Wang, G."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Wang, G.",
     
@@ -2313,9 +2304,9 @@ I50118["Wang, G."].update_relations(
 
 
 # 2019_xia 
-I52771["publication: High‐performance and low‐power rewritable SiO*x* 1 kbit one diode–one resistor crossbar memory array"].update_relations(
+I50118["publication: High‐performance and low‐power rewritable SiO*x* 1 kbit one diode–one resistor crossbar memory array"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I50118["Wang, G."],
+    ag__R8433__has_authors=I95662["Wang, G."],
     ag__R8434__has_title="High‐performance and low‐power rewritable SiO*x* 1 kbit one diode–one resistor crossbar memory array",
     ag__R8435__has_year=2013,
     
@@ -2323,18 +2314,18 @@ I52771["publication: High‐performance and low‐power rewritable SiO*x* 1 kbit
 
 
 # 2019_xia 
-I38213["publication: Vacancy-modulated conductive oxide resistive RAM (VMCO-RRAM): an area-scalable switching current, self-compliant, highly nonlinear and wide on/of-window resistive switching cell"].update_relations(
+I52771["publication: Vacancy-modulated conductive oxide resistive RAM (VMCO-RRAM): an area-scalable switching current, self-compliant, highly nonlinear and wide on/of-window resistive switching cell"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I41902["Govoreanu, B."],
+    ag__R8433__has_authors=I87136["Govoreanu, B."],
     ag__R8434__has_title="Vacancy-modulated conductive oxide resistive RAM (VMCO-RRAM): an area-scalable switching current, self-compliant, highly nonlinear and wide on/of-window resistive switching cell",
     ag__R8435__has_year=2013,
-    R11809__has_memristor_stack=I18158["TiN/Al2O3/TiO2/TiN"],
+    R11809__has_memristor_stack=I93983["TiN/Al2O3/TiO2/TiN"],
     
 )
 
 
 # 2019_xia 
-I9385["Song, M."].update_relations(
+I38213["Song, M."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Song, M.",
     
@@ -2342,18 +2333,18 @@ I9385["Song, M."].update_relations(
 
 
 # 2019_xia 
-I34131["publication: Self-selective characteristics of nanoscale VOx devices for high-density ReRAM applications"].update_relations(
+I9385["publication: Self-selective characteristics of nanoscale VOx devices for high-density ReRAM applications"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I9385["Song, M."],
+    ag__R8433__has_authors=I38213["Song, M."],
     ag__R8434__has_title="Self-selective characteristics of nanoscale VOx devices for high-density ReRAM applications",
     ag__R8435__has_year=2012,
-    R11809__has_memristor_stack=I63066["W/VOx/Pt"],
+    R11809__has_memristor_stack=I18158["W/VOx/Pt"],
     
 )
 
 
 # 2019_xia 
-I47402["Lu, D."].update_relations(
+I34131["Lu, D."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Lu, D.",
     
@@ -2361,18 +2352,18 @@ I47402["Lu, D."].update_relations(
 
 
 # 2019_xia 
-I8777["publication: Investigations of conduction mechanisms of the self-rectifying n<sup>+</sup>Si-HfO2-Ni RRAM devices"].update_relations(
+I47402["publication: Investigations of conduction mechanisms of the self-rectifying n<sup>+</sup>Si-HfO2-Ni RRAM devices"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I47402["Lu, D."],
+    ag__R8433__has_authors=I34131["Lu, D."],
     ag__R8434__has_title="Investigations of conduction mechanisms of the self-rectifying n<sup>+</sup>Si-HfO2-Ni RRAM devices",
     ag__R8435__has_year=2014,
-    R11809__has_memristor_stack=I3236["Ni/HfO2/n-Si"],
+    R11809__has_memristor_stack=I55774["Ni/HfO2/n-Si"],
     
 )
 
 
 # 2019_xia 
-I61519["Wang, M. J."].update_relations(
+I8777["Wang, M. J."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Wang, M. J.",
     
@@ -2380,7 +2371,7 @@ I61519["Wang, M. J."].update_relations(
 
 
 # 2019_xia 
-I89808["Gao, S."].update_relations(
+I61519["Gao, S."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Gao, S.",
     
@@ -2388,7 +2379,7 @@ I89808["Gao, S."].update_relations(
 
 
 # 2019_xia 
-I73802["Zeng, F."].update_relations(
+I89808["Zeng, F."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Zeng, F.",
     
@@ -2396,7 +2387,7 @@ I73802["Zeng, F."].update_relations(
 
 
 # 2019_xia 
-I63079["Song, C."].update_relations(
+I73802["Song, C."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Song, C.",
     
@@ -2404,7 +2395,7 @@ I63079["Song, C."].update_relations(
 
 
 # 2019_xia 
-I92934["Pan, F."].update_relations(
+I63079["Pan, F."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Pan, F.",
     
@@ -2412,18 +2403,18 @@ I92934["Pan, F."].update_relations(
 
 
 # 2019_xia 
-I97154["publication: Unipolar resistive switching with forming-free and self-rectifying efects in Cu/HfO2/n-Si devices"].update_relations(
+I92934["publication: Unipolar resistive switching with forming-free and self-rectifying efects in Cu/HfO2/n-Si devices"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=[I61519["Wang, M. J."], I89808["Gao, S."], I73802["Zeng, F."], I63079["Song, C."], I92934["Pan, F."]],
+    ag__R8433__has_authors=[I8777["Wang, M. J."], I61519["Gao, S."], I89808["Zeng, F."], I73802["Song, C."], I63079["Pan, F."]],
     ag__R8434__has_title="Unipolar resistive switching with forming-free and self-rectifying efects in Cu/HfO2/n-Si devices",
     ag__R8435__has_year=2016,
-    R11809__has_memristor_stack=I95705["Cu/HfO2/n-Si"],
+    R11809__has_memristor_stack=I3236["Cu/HfO2/n-Si"],
     
 )
 
 
 # 2019_xia 
-I84376["Kim, K.-H."].update_relations(
+I97154["Kim, K.-H."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Kim, K.-H.",
     
@@ -2431,7 +2422,7 @@ I84376["Kim, K.-H."].update_relations(
 
 
 # 2019_xia 
-I72298["Jo, S. H."].update_relations(
+I84376["Jo, S. H."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Jo, S. H.",
     
@@ -2439,7 +2430,7 @@ I72298["Jo, S. H."].update_relations(
 
 
 # 2019_xia 
-I34559["Gaba, S."].update_relations(
+I72298["Gaba, S."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Gaba, S.",
     
@@ -2447,7 +2438,7 @@ I34559["Gaba, S."].update_relations(
 
 
 # 2019_xia 
-I83048["Lu, W."].update_relations(
+I34559["Lu, W."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Lu, W.",
     
@@ -2455,44 +2446,44 @@ I83048["Lu, W."].update_relations(
 
 
 # 2019_xia 
-I71732["publication: Nanoscale resistive memory with intrinsic diode characteristics and long endurance"].update_relations(
+I83048["publication: Nanoscale resistive memory with intrinsic diode characteristics and long endurance"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=[I84376["Kim, K.-H."], I72298["Jo, S. H."], I34559["Gaba, S."], I83048["Lu, W."]],
+    ag__R8433__has_authors=[I97154["Kim, K.-H."], I84376["Jo, S. H."], I72298["Gaba, S."], I34559["Lu, W."]],
     ag__R8434__has_title="Nanoscale resistive memory with intrinsic diode characteristics and long endurance",
     ag__R8435__has_year=2010,
-    R11809__has_memristor_stack=I78145["Ag/a-Si/p-poly-Si"],
+    R11809__has_memristor_stack=I95705["Ag/a-Si/p-poly-Si"],
     
 )
 
 
 # 2019_xia 
-I16765["Ni/TiO2/Ni"].update_relations(
+I71732["Ni/TiO2/Ni"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I16765["Ni/TiO2/Ni"].set_relation(R48517["has stack component"], omt.I87636["nickel"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I16765["Ni/TiO2/Ni"].set_relation(R48517["has stack component"], omt.I87636["nickel"], qualifiers=[has_position(2), is_at_outer_position(True), ])
-I16765["Ni/TiO2/Ni"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I71732["Ni/TiO2/Ni"].set_relation(R48517["has stack component"], omt.I87636["nickel"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I71732["Ni/TiO2/Ni"].set_relation(R48517["has stack component"], omt.I87636["nickel"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I71732["Ni/TiO2/Ni"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
 
 
 # 2019_xia 
-I18578["Pt/TiO2/TiN"].update_relations(
+I16765["Pt/TiO2/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I18578["Pt/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I18578["Pt/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I18578["Pt/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I16765["Pt/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I16765["Pt/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I16765["Pt/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
 
 
 # 2019_xia 
-I87992["TiN/Ta2O5/TiN"].update_relations(
+I18578["TiN/Ta2O5/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I87992["TiN/Ta2O5/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I87992["TiN/Ta2O5/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
-I87992["TiN/Ta2O5/TiN"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I18578["TiN/Ta2O5/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I18578["TiN/Ta2O5/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I18578["TiN/Ta2O5/TiN"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(1), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2500,39 +2491,39 @@ I87992["TiN/Ta2O5/TiN"].set_relation(R48517["has stack component"], omt.I6123["T
 
 
 # 2019_xia 
-I44440["W/Ta2O5/TaOx/TiO2/TiN"].update_relations(
+I87992["W/Ta2O5/TaOx/TiO2/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I44440["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I44440["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I44440["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
-I44440["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(3), is_at_outer_position(False), ])
-I44440["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(4), is_at_outer_position(True), ])
+I87992["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I87992["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I87992["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I87992["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(3), is_at_outer_position(False), ])
+I87992["W/Ta2O5/TaOx/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(4), is_at_outer_position(True), ])
 
 
 # 2019_xia 
-I58468["Pt/TaOx/TiO2/TaOx/Pt"].update_relations(
+I44440["Pt/TaOx/TiO2/TaOx/Pt"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I58468["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I58468["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(4), is_at_outer_position(True), ])
-I58468["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I58468["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(3), is_at_outer_position(False), ])
-I58468["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I44440["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I44440["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(4), is_at_outer_position(True), ])
+I44440["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I44440["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(3), is_at_outer_position(False), ])
+I44440["Pt/TaOx/TiO2/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 # 2019_xia 
-I47470["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].update_relations(
+I58468["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I47470["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I47470["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(4), is_at_outer_position(True), ])
-I47470["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I6124["TaN1+x"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I47470["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I6124["TaN1+x"], qualifiers=[has_position(3), is_at_outer_position(False), ])
-I47470["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I58468["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I58468["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(4), is_at_outer_position(True), ])
+I58468["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I6124["TaN1+x"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I58468["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I6124["TaN1+x"], qualifiers=[has_position(3), is_at_outer_position(False), ])
+I58468["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2540,13 +2531,13 @@ I47470["Pt/TaN1+x/Ta2O5/TaN1+x/Pt"].set_relation(R48517["has stack component"], 
 
 
 # 2019_xia 
-I82062["TaN/SiNx/TaN"].update_relations(
+I47470["TaN/SiNx/TaN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I82062["TaN/SiNx/TaN"].set_relation(R48517["has stack component"], omt.I6125["TaN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I82062["TaN/SiNx/TaN"].set_relation(R48517["has stack component"], omt.I6125["TaN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
-I82062["TaN/SiNx/TaN"].set_relation(R48517["has stack component"], omt.I6126["SiNx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I47470["TaN/SiNx/TaN"].set_relation(R48517["has stack component"], omt.I6125["TaN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I47470["TaN/SiNx/TaN"].set_relation(R48517["has stack component"], omt.I6125["TaN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I47470["TaN/SiNx/TaN"].set_relation(R48517["has stack component"], omt.I6126["SiNx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2554,13 +2545,13 @@ I82062["TaN/SiNx/TaN"].set_relation(R48517["has stack component"], omt.I6126["Si
 
 
 # 2019_xia 
-I58157["TiN/GexSe1-x/TiN"].update_relations(
+I82062["TiN/GexSe1-x/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I58157["TiN/GexSe1-x/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I58157["TiN/GexSe1-x/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
-I58157["TiN/GexSe1-x/TiN"].set_relation(R48517["has stack component"], omt.I6130["GexSe1-x"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I82062["TiN/GexSe1-x/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I82062["TiN/GexSe1-x/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I82062["TiN/GexSe1-x/TiN"].set_relation(R48517["has stack component"], omt.I6130["GexSe1-x"], qualifiers=[has_position(1), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2571,13 +2562,13 @@ omt.I6130["GexSe1-x"].update_relations(
 
 
 # 2019_xia 
-I27966["TiN/As:SiO2/TiN"].update_relations(
+I58157["TiN/As:SiO2/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I27966["TiN/As:SiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I27966["TiN/As:SiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
-I27966["TiN/As:SiO2/TiN"].set_relation(R48517["has stack component"], omt.I6131["As:SiO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I58157["TiN/As:SiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I58157["TiN/As:SiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I58157["TiN/As:SiO2/TiN"].set_relation(R48517["has stack component"], omt.I6131["As:SiO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2588,13 +2579,13 @@ omt.I6131["As:SiO2"].update_relations(
 
 
 # 2019_xia 
-I21352["Pt/VO2/Pt"].update_relations(
+I27966["Pt/VO2/Pt"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I21352["Pt/VO2/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I21352["Pt/VO2/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(True), ])
-I21352["Pt/VO2/Pt"].set_relation(R48517["has stack component"], omt.I6132["VO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I27966["Pt/VO2/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I27966["Pt/VO2/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I27966["Pt/VO2/Pt"].set_relation(R48517["has stack component"], omt.I6132["VO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2602,13 +2593,13 @@ I21352["Pt/VO2/Pt"].set_relation(R48517["has stack component"], omt.I6132["VO2"]
 
 
 # 2019_xia 
-I46285["TiN/NbO2/TiN"].update_relations(
+I21352["TiN/NbO2/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I46285["TiN/NbO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I46285["TiN/NbO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
-I46285["TiN/NbO2/TiN"].set_relation(R48517["has stack component"], omt.I6133["NbO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I21352["TiN/NbO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I21352["TiN/NbO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I21352["TiN/NbO2/TiN"].set_relation(R48517["has stack component"], omt.I6133["NbO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2616,23 +2607,23 @@ I46285["TiN/NbO2/TiN"].set_relation(R48517["has stack component"], omt.I6133["Nb
 
 
 # 2019_xia 
-I6912["TiN/NbO2/W"].update_relations(
+I46285["TiN/NbO2/W"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I6912["TiN/NbO2/W"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I6912["TiN/NbO2/W"].set_relation(R48517["has stack component"], omt.I6133["NbO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I6912["TiN/NbO2/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I46285["TiN/NbO2/W"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I46285["TiN/NbO2/W"].set_relation(R48517["has stack component"], omt.I6133["NbO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I46285["TiN/NbO2/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(2), is_at_outer_position(True), ])
 
 
 # 2019_xia 
-I26347["TiN/AsTeGeSiN/TiN"].update_relations(
+I6912["TiN/AsTeGeSiN/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I26347["TiN/AsTeGeSiN/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I26347["TiN/AsTeGeSiN/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
-I26347["TiN/AsTeGeSiN/TiN"].set_relation(R48517["has stack component"], omt.I6149["AsTeGeSiN"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I6912["TiN/AsTeGeSiN/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I6912["TiN/AsTeGeSiN/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I6912["TiN/AsTeGeSiN/TiN"].set_relation(R48517["has stack component"], omt.I6149["AsTeGeSiN"], qualifiers=[has_position(1), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2640,15 +2631,15 @@ I26347["TiN/AsTeGeSiN/TiN"].set_relation(R48517["has stack component"], omt.I614
 
 
 # 2019_xia 
-I24977["W/Ag/MgO/Ag/W"].update_relations(
+I26347["W/Ag/MgO/Ag/W"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I24977["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I24977["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(4), is_at_outer_position(True), ])
-I24977["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I24977["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(3), is_at_outer_position(False), ])
-I24977["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I6135["MgO"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I26347["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I26347["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(4), is_at_outer_position(True), ])
+I26347["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I26347["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(3), is_at_outer_position(False), ])
+I26347["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I6135["MgO"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2660,13 +2651,13 @@ I24977["W/Ag/MgO/Ag/W"].set_relation(R48517["has stack component"], omt.I6135["M
 
 
 # 2019_xia 
-I9309["Pt/Ag:SiOxNy/Pt"].update_relations(
+I24977["Pt/Ag:SiOxNy/Pt"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I9309["Pt/Ag:SiOxNy/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I9309["Pt/Ag:SiOxNy/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(True), ])
-I9309["Pt/Ag:SiOxNy/Pt"].set_relation(R48517["has stack component"], omt.I6150["Ag:SiOxNy"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I24977["Pt/Ag:SiOxNy/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I24977["Pt/Ag:SiOxNy/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I24977["Pt/Ag:SiOxNy/Pt"].set_relation(R48517["has stack component"], omt.I6150["Ag:SiOxNy"], qualifiers=[has_position(1), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2677,15 +2668,15 @@ omt.I6150["Ag:SiOxNy"].update_relations(
 
 
 # 2019_xia 
-I93983["Pd/Ag/HfO2/Ag/Pd"].update_relations(
+I9309["Pd/Ag/HfO2/Ag/Pd"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I93983["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I60065["palladium"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I93983["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I60065["palladium"], qualifiers=[has_position(4), is_at_outer_position(True), ])
-I93983["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I93983["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(3), is_at_outer_position(False), ])
-I93983["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I9309["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I60065["palladium"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I9309["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I60065["palladium"], qualifiers=[has_position(4), is_at_outer_position(True), ])
+I9309["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I9309["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(3), is_at_outer_position(False), ])
+I9309["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 # 2019_xia 
@@ -2693,24 +2684,24 @@ I93983["Pd/Ag/HfO2/Ag/Pd"].set_relation(R48517["has stack component"], omt.I6104
 
 
 # 2019_xia 
-I18158["TiN/Al2O3/TiO2/TiN"].update_relations(
+I93983["TiN/Al2O3/TiO2/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I18158["TiN/Al2O3/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I18158["TiN/Al2O3/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(3), is_at_outer_position(True), ])
-I18158["TiN/Al2O3/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6100["Al2O3"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I18158["TiN/Al2O3/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I93983["TiN/Al2O3/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I93983["TiN/Al2O3/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(3), is_at_outer_position(True), ])
+I93983["TiN/Al2O3/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6100["Al2O3"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I93983["TiN/Al2O3/TiO2/TiN"].set_relation(R48517["has stack component"], omt.I6119["TiO2"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 # 2019_xia 
-I63066["W/VOx/Pt"].update_relations(
+I18158["W/VOx/Pt"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I63066["W/VOx/Pt"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I63066["W/VOx/Pt"].set_relation(R48517["has stack component"], omt.I6140["VOx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I63066["W/VOx/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I18158["W/VOx/Pt"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I18158["W/VOx/Pt"].set_relation(R48517["has stack component"], omt.I6140["VOx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I18158["W/VOx/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(True), ])
 
 
 # 2019_xia 
@@ -2718,13 +2709,13 @@ I63066["W/VOx/Pt"].set_relation(R48517["has stack component"], omt.I4374["platin
 
 
 # 2019_xia 
-I55774["p-Si/SiO2/n-Si"].update_relations(
+I63066["p-Si/SiO2/n-Si"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I55774["p-Si/SiO2/n-Si"].set_relation(R48517["has stack component"], omt.I6141["p-Si"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I55774["p-Si/SiO2/n-Si"].set_relation(R48517["has stack component"], omt.I6111["SiO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I55774["p-Si/SiO2/n-Si"].set_relation(R48517["has stack component"], omt.I6142["n-Si"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I63066["p-Si/SiO2/n-Si"].set_relation(R48517["has stack component"], omt.I6141["p-Si"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I63066["p-Si/SiO2/n-Si"].set_relation(R48517["has stack component"], omt.I6111["SiO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I63066["p-Si/SiO2/n-Si"].set_relation(R48517["has stack component"], omt.I6142["n-Si"], qualifiers=[has_position(2), is_at_outer_position(True), ])
 
 
 # 2019_xia 
@@ -2746,23 +2737,23 @@ omt.I6142["n-Si"].update_relations(
 
 
 # 2019_xia 
-I3236["Ni/HfO2/n-Si"].update_relations(
+I55774["Ni/HfO2/n-Si"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I3236["Ni/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I87636["nickel"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I3236["Ni/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I3236["Ni/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I6142["n-Si"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I55774["Ni/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I87636["nickel"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I55774["Ni/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I55774["Ni/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I6142["n-Si"], qualifiers=[has_position(2), is_at_outer_position(True), ])
 
 
 # 2019_xia 
-I95705["Cu/HfO2/n-Si"].update_relations(
+I3236["Cu/HfO2/n-Si"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I95705["Cu/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I23950["copper"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I95705["Cu/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I95705["Cu/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I6142["n-Si"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I3236["Cu/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I23950["copper"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I3236["Cu/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I3236["Cu/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I6142["n-Si"], qualifiers=[has_position(2), is_at_outer_position(True), ])
 
 
 # 2019_xia 
@@ -2770,13 +2761,13 @@ I95705["Cu/HfO2/n-Si"].set_relation(R48517["has stack component"], omt.I6142["n-
 
 
 # 2019_xia 
-I78145["Ag/a-Si/p-poly-Si"].update_relations(
+I95705["Ag/a-Si/p-poly-Si"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I78145["Ag/a-Si/p-poly-Si"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I78145["Ag/a-Si/p-poly-Si"].set_relation(R48517["has stack component"], omt.I6143["a-Si"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I78145["Ag/a-Si/p-poly-Si"].set_relation(R48517["has stack component"], omt.I6144["p-poly-Si"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I95705["Ag/a-Si/p-poly-Si"].set_relation(R48517["has stack component"], omt.I93439["silver"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I95705["Ag/a-Si/p-poly-Si"].set_relation(R48517["has stack component"], omt.I6143["a-Si"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I95705["Ag/a-Si/p-poly-Si"].set_relation(R48517["has stack component"], omt.I6144["p-poly-Si"], qualifiers=[has_position(2), is_at_outer_position(True), ])
 
 
 # 2019_xia 
@@ -2794,7 +2785,7 @@ omt.I6144["p-poly-Si"].update_relations(
 
 
 # 2024_aguirre 
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].update_relations(
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
     ag__R8433__has_authors=["Fernando Aguirre", "Abu Sebastian"],
     ag__R8434__has_title="Hardware implementation of memristorbased artificial neural networks",
@@ -2802,24 +2793,24 @@ I93419["publication: Hardware implementation of memristorbased artificial neural
     R68407__has_internal_reference="2024_aguirre_et_al",
     
 )
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I11520["publication: Fully hardware-implemented memristor convolutional neural network"], qualifiers=[has_citation_id(55), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I59694["publication: A fully integrated reprogrammable memristor-CMOS system for efficient multiply-accumulate operations"], qualifiers=[has_citation_id(57), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I56829["publication: A compute-in-memory chip based on resistive random-access memory"], qualifiers=[has_citation_id(60), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I33159["publication: A 4M synapses integrated analog ReRAM based 66.5 TOPS/W neural-network processor with cell current controlled writing and flexible network architecture"], qualifiers=[has_citation_id(99), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I92000["publication: A 462GOPs/J RRAM-based nonvolatile intelligent processor for energy harvesting IoE system featuring nonvolatile logics and processing-in-memory"], qualifiers=[has_citation_id(100), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I82346["publication: A fully hardware-based memristive multilayer neural network"], qualifiers=[has_citation_id(102), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I90071["publication: CMOS-integrated nanoscale memristive crossbars for CNN and optimization acceleration"], qualifiers=[has_citation_id(113), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I12398["publication: Redundancy and analog slicing for precise inmemory machine learning - Part I: Programming techniques"], qualifiers=[has_citation_id(114), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I33364["publication: Redundancy and analog slicing for precise inmemory machine learning - Part II: Applications and benchmark"], qualifiers=[has_citation_id(115), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I8173["publication: Fully memristive neural networks for pattern classification with unsupervised learning"], qualifiers=[has_citation_id(116), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I76458["publication: In-memory and error-immune differential RRAM implementation of binarized deep neural networks"], qualifiers=[has_citation_id(123), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I38620["publication: CMOS-integrated memristive non-volatile computing-in-memory for AI edge processors"], qualifiers=[has_citation_id(219), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I48237["publication: Digital biologically plausible implementation of binarized neural networks with differential hafnium oxide resistive memory arrays"], qualifiers=[has_citation_id(272), ])
-I93419["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I99103["publication: A 43pJ/Cycle Non-Volatile Microcontroller with 4.7μs Shutdown/Wake-up Integrating 2.3-bit/Cell Resistive RAM and Resilience Techniques"], qualifiers=[has_citation_id(274), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I98801["publication: Fully hardware-implemented memristor convolutional neural network"], qualifiers=[has_citation_id(55), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I47520["publication: A fully integrated reprogrammable memristor-CMOS system for efficient multiply-accumulate operations"], qualifiers=[has_citation_id(57), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I79160["publication: A compute-in-memory chip based on resistive random-access memory"], qualifiers=[has_citation_id(60), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I10094["publication: A 4M synapses integrated analog ReRAM based 66.5 TOPS/W neural-network processor with cell current controlled writing and flexible network architecture"], qualifiers=[has_citation_id(99), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I42033["publication: A 462GOPs/J RRAM-based nonvolatile intelligent processor for energy harvesting IoE system featuring nonvolatile logics and processing-in-memory"], qualifiers=[has_citation_id(100), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I29098["publication: A fully hardware-based memristive multilayer neural network"], qualifiers=[has_citation_id(102), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I82346["publication: CMOS-integrated nanoscale memristive crossbars for CNN and optimization acceleration"], qualifiers=[has_citation_id(113), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I88962["publication: Redundancy and analog slicing for precise inmemory machine learning - Part I: Programming techniques"], qualifiers=[has_citation_id(114), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I12398["publication: Redundancy and analog slicing for precise inmemory machine learning - Part II: Applications and benchmark"], qualifiers=[has_citation_id(115), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I33364["publication: Fully memristive neural networks for pattern classification with unsupervised learning"], qualifiers=[has_citation_id(116), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I98878["publication: In-memory and error-immune differential RRAM implementation of binarized deep neural networks"], qualifiers=[has_citation_id(123), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I23249["publication: CMOS-integrated memristive non-volatile computing-in-memory for AI edge processors"], qualifiers=[has_citation_id(219), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I76087["publication: Digital biologically plausible implementation of binarized neural networks with differential hafnium oxide resistive memory arrays"], qualifiers=[has_citation_id(272), ])
+I78145["publication: Hardware implementation of memristorbased artificial neural networks"].set_relation(ag.R8440["cites"], I61398["publication: A 43pJ/Cycle Non-Volatile Microcontroller with 4.7μs Shutdown/Wake-up Integrating 2.3-bit/Cell Resistive RAM and Resilience Techniques"], qualifiers=[has_citation_id(274), ])
 
 
 # 2024_aguirre 
-I98801["Yao, P."].update_relations(
+I93419["Yao, P."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Yao, P.",
     
@@ -2827,18 +2818,18 @@ I98801["Yao, P."].update_relations(
 
 
 # 2024_aguirre 
-I11520["publication: Fully hardware-implemented memristor convolutional neural network"].update_relations(
+I98801["publication: Fully hardware-implemented memristor convolutional neural network"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I98801["Yao, P."],
+    ag__R8433__has_authors=I93419["Yao, P."],
     ag__R8434__has_title="Fully hardware-implemented memristor convolutional neural network",
     ag__R8435__has_year=2020,
-    R11809__has_memristor_stack=I66639["TiN/TaOx/HfOx/TiN"],
+    R11809__has_memristor_stack=I28976["TiN/TaOx/HfOx/TiN"],
     
 )
 
 
 # 2024_aguirre 
-I47520["Cai, F."].update_relations(
+I11520["Cai, F."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Cai, F.",
     
@@ -2846,18 +2837,18 @@ I47520["Cai, F."].update_relations(
 
 
 # 2024_aguirre 
-I59694["publication: A fully integrated reprogrammable memristor-CMOS system for efficient multiply-accumulate operations"].update_relations(
+I47520["publication: A fully integrated reprogrammable memristor-CMOS system for efficient multiply-accumulate operations"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I47520["Cai, F."],
+    ag__R8433__has_authors=I11520["Cai, F."],
     ag__R8434__has_title="A fully integrated reprogrammable memristor-CMOS system for efficient multiply-accumulate operations",
     ag__R8435__has_year=2019,
-    R11809__has_memristor_stack=I28976["Au/Pd/WOx/Au"],
+    R11809__has_memristor_stack=I99103["Au/Pd/WOx/Au"],
     
 )
 
 
 # 2024_aguirre 
-I79160["Wan, W."].update_relations(
+I59694["Wan, W."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Wan, W.",
     
@@ -2865,18 +2856,18 @@ I79160["Wan, W."].update_relations(
 
 
 # 2024_aguirre 
-I56829["publication: A compute-in-memory chip based on resistive random-access memory"].update_relations(
+I79160["publication: A compute-in-memory chip based on resistive random-access memory"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I79160["Wan, W."],
+    ag__R8433__has_authors=I59694["Wan, W."],
     ag__R8434__has_title="A compute-in-memory chip based on resistive random-access memory",
     ag__R8435__has_year=2022,
-    R11809__has_memristor_stack=I29376["TiN/HfO2/TaOx/TiN"],
+    R11809__has_memristor_stack=I47202["TiN/HfO2/TaOx/TiN"],
     
 )
 
 
 # 2024_aguirre 
-I10094["Mochida, R."].update_relations(
+I56829["Mochida, R."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Mochida, R.",
     
@@ -2884,18 +2875,18 @@ I10094["Mochida, R."].update_relations(
 
 
 # 2024_aguirre 
-I33159["publication: A 4M synapses integrated analog ReRAM based 66.5 TOPS/W neural-network processor with cell current controlled writing and flexible network architecture"].update_relations(
+I10094["publication: A 4M synapses integrated analog ReRAM based 66.5 TOPS/W neural-network processor with cell current controlled writing and flexible network architecture"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I10094["Mochida, R."],
+    ag__R8433__has_authors=I56829["Mochida, R."],
     ag__R8434__has_title="A 4M synapses integrated analog ReRAM based 66.5 TOPS/W neural-network processor with cell current controlled writing and flexible network architecture",
     ag__R8435__has_year=2018,
-    R11809__has_memristor_stack=I37167["W/Ta2O5/TaOx/W"],
+    R11809__has_memristor_stack=I61689["W/Ta2O5/TaOx/W"],
     
 )
 
 
 # 2024_aguirre 
-I42033["Su, F."].update_relations(
+I33159["Su, F."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Su, F.",
     
@@ -2903,18 +2894,18 @@ I42033["Su, F."].update_relations(
 
 
 # 2024_aguirre 
-I92000["publication: A 462GOPs/J RRAM-based nonvolatile intelligent processor for energy harvesting IoE system featuring nonvolatile logics and processing-in-memory"].update_relations(
+I42033["publication: A 462GOPs/J RRAM-based nonvolatile intelligent processor for energy harvesting IoE system featuring nonvolatile logics and processing-in-memory"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I42033["Su, F."],
+    ag__R8433__has_authors=I33159["Su, F."],
     ag__R8434__has_title="A 462GOPs/J RRAM-based nonvolatile intelligent processor for energy harvesting IoE system featuring nonvolatile logics and processing-in-memory",
     ag__R8435__has_year=2017,
-    R11809__has_memristor_stack=I12287["AlCu/TiN/Ti/HfO2/TiN"],
+    R11809__has_memristor_stack=I37167["AlCu/TiN/Ti/HfO2/TiN"],
     
 )
 
 
 # 2024_aguirre 
-I7940["Kiani, F."].update_relations(
+I92000["Kiani, F."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Kiani, F.",
     
@@ -2922,7 +2913,7 @@ I7940["Kiani, F."].update_relations(
 
 
 # 2024_aguirre 
-I69530["Yin, J."].update_relations(
+I7940["Yin, J."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Yin, J.",
     
@@ -2930,7 +2921,7 @@ I69530["Yin, J."].update_relations(
 
 
 # 2024_aguirre 
-I68259["Joshua Yang, J."].update_relations(
+I69530["Joshua Yang, J."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Joshua Yang, J.",
     
@@ -2938,7 +2929,7 @@ I68259["Joshua Yang, J."].update_relations(
 
 
 # 2024_aguirre 
-I29098["Xia, Q."].update_relations(
+I68259["Xia, Q."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Xia, Q.",
     
@@ -2946,29 +2937,29 @@ I29098["Xia, Q."].update_relations(
 
 
 # 2024_aguirre 
-I82346["publication: A fully hardware-based memristive multilayer neural network"].update_relations(
+I29098["publication: A fully hardware-based memristive multilayer neural network"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=[I7940["Kiani, F."], I69530["Yin, J."], I10778["Wang, Z."], I68259["Joshua Yang, J."], I29098["Xia, Q."]],
+    ag__R8433__has_authors=[I92000["Kiani, F."], I7940["Yin, J."], I10778["Wang, Z."], I69530["Joshua Yang, J."], I68259["Xia, Q."]],
     ag__R8434__has_title="A fully hardware-based memristive multilayer neural network",
     ag__R8435__has_year=2021,
-    R11809__has_memristor_stack=I34380["Pt/Ta/Ta2O5/Pt/Ti"],
+    R11809__has_memristor_stack=I66639["Pt/Ta/Ta2O5/Pt/Ti"],
     
 )
 
 
 # 2024_aguirre 
-I90071["publication: CMOS-integrated nanoscale memristive crossbars for CNN and optimization acceleration"].update_relations(
+I82346["publication: CMOS-integrated nanoscale memristive crossbars for CNN and optimization acceleration"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
     ag__R8433__has_authors=I70494["Li, C."],
     ag__R8434__has_title="CMOS-integrated nanoscale memristive crossbars for CNN and optimization acceleration",
     ag__R8435__has_year=2020,
-    R11809__has_memristor_stack=I37464["Ta/TaOx/Pt"],
+    R11809__has_memristor_stack=I34380["Ta/TaOx/Pt"],
     
 )
 
 
 # 2024_aguirre 
-I88962["Pedretti, G."].update_relations(
+I90071["Pedretti, G."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Pedretti, G.",
     
@@ -2976,9 +2967,9 @@ I88962["Pedretti, G."].update_relations(
 
 
 # 2024_aguirre 
-I12398["publication: Redundancy and analog slicing for precise inmemory machine learning - Part I: Programming techniques"].update_relations(
+I88962["publication: Redundancy and analog slicing for precise inmemory machine learning - Part I: Programming techniques"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I88962["Pedretti, G."],
+    ag__R8433__has_authors=I90071["Pedretti, G."],
     ag__R8434__has_title="Redundancy and analog slicing for precise inmemory machine learning - Part I: Programming techniques",
     ag__R8435__has_year=2021,
     
@@ -2986,9 +2977,9 @@ I12398["publication: Redundancy and analog slicing for precise inmemory machine 
 
 
 # 2024_aguirre 
-I33364["publication: Redundancy and analog slicing for precise inmemory machine learning - Part II: Applications and benchmark"].update_relations(
+I12398["publication: Redundancy and analog slicing for precise inmemory machine learning - Part II: Applications and benchmark"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I88962["Pedretti, G."],
+    ag__R8433__has_authors=I90071["Pedretti, G."],
     ag__R8434__has_title="Redundancy and analog slicing for precise inmemory machine learning - Part II: Applications and benchmark",
     ag__R8435__has_year=2021,
     
@@ -2996,18 +2987,18 @@ I33364["publication: Redundancy and analog slicing for precise inmemory machine 
 
 
 # 2024_aguirre 
-I8173["publication: Fully memristive neural networks for pattern classification with unsupervised learning"].update_relations(
+I33364["publication: Fully memristive neural networks for pattern classification with unsupervised learning"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
     ag__R8433__has_authors=I10778["Wang, Z."],
     ag__R8434__has_title="Fully memristive neural networks for pattern classification with unsupervised learning",
     ag__R8435__has_year=2018,
-    R11809__has_memristor_stack=[I41069["Pt/SiOxAg/Pt/Ti"], I5868["Ta/Pd/HfO2/Pt/Ti"]],
+    R11809__has_memristor_stack=[I11681["Pt/SiOxAg/Pt/Ti"], I41069["Ta/Pd/HfO2/Pt/Ti"]],
     
 )
 
 
 # 2024_aguirre 
-I98878["Bocquet, M."].update_relations(
+I8173["Bocquet, M."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Bocquet, M.",
     
@@ -3015,18 +3006,18 @@ I98878["Bocquet, M."].update_relations(
 
 
 # 2024_aguirre 
-I76458["publication: In-memory and error-immune differential RRAM implementation of binarized deep neural networks"].update_relations(
+I98878["publication: In-memory and error-immune differential RRAM implementation of binarized deep neural networks"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I98878["Bocquet, M."],
+    ag__R8433__has_authors=I8173["Bocquet, M."],
     ag__R8434__has_title="In-memory and error-immune differential RRAM implementation of binarized deep neural networks",
     ag__R8435__has_year=2018,
-    R11809__has_memristor_stack=I61689["TiN/HfO2/Ti/TiN"],
+    R11809__has_memristor_stack=I5868["TiN/HfO2/Ti/TiN"],
     
 )
 
 
 # 2024_aguirre 
-I23249["Chen, W. H."].update_relations(
+I76458["Chen, W. H."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Chen, W. H.",
     
@@ -3034,18 +3025,18 @@ I23249["Chen, W. H."].update_relations(
 
 
 # 2024_aguirre 
-I38620["publication: CMOS-integrated memristive non-volatile computing-in-memory for AI edge processors"].update_relations(
+I23249["publication: CMOS-integrated memristive non-volatile computing-in-memory for AI edge processors"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I23249["Chen, W. H."],
+    ag__R8433__has_authors=I76458["Chen, W. H."],
     ag__R8434__has_title="CMOS-integrated memristive non-volatile computing-in-memory for AI edge processors",
     ag__R8435__has_year=2019,
-    R11809__has_memristor_stack=I11681["W/TiN/TiON"],
+    R11809__has_memristor_stack=I37464["W/TiN/TiON"],
     
 )
 
 
 # 2024_aguirre 
-I76087["Hirtzlin, T."].update_relations(
+I38620["Hirtzlin, T."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Hirtzlin, T.",
     
@@ -3053,18 +3044,18 @@ I76087["Hirtzlin, T."].update_relations(
 
 
 # 2024_aguirre 
-I48237["publication: Digital biologically plausible implementation of binarized neural networks with differential hafnium oxide resistive memory arrays"].update_relations(
+I76087["publication: Digital biologically plausible implementation of binarized neural networks with differential hafnium oxide resistive memory arrays"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I76087["Hirtzlin, T."],
+    ag__R8433__has_authors=I38620["Hirtzlin, T."],
     ag__R8434__has_title="Digital biologically plausible implementation of binarized neural networks with differential hafnium oxide resistive memory arrays",
     ag__R8435__has_year=2020,
-    R11809__has_memristor_stack=I61689["TiN/HfO2/Ti/TiN"],
+    R11809__has_memristor_stack=I5868["TiN/HfO2/Ti/TiN"],
     
 )
 
 
 # 2024_aguirre 
-I61398["Wu, T. F."].update_relations(
+I48237["Wu, T. F."].update_relations(
     R4__is_instance_of=ag.I7435["human"],
     ag__R7781__has_family_name="Wu, T. F.",
     
@@ -3072,25 +3063,25 @@ I61398["Wu, T. F."].update_relations(
 
 
 # 2024_aguirre 
-I99103["publication: A 43pJ/Cycle Non-Volatile Microcontroller with 4.7μs Shutdown/Wake-up Integrating 2.3-bit/Cell Resistive RAM and Resilience Techniques"].update_relations(
+I61398["publication: A 43pJ/Cycle Non-Volatile Microcontroller with 4.7μs Shutdown/Wake-up Integrating 2.3-bit/Cell Resistive RAM and Resilience Techniques"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=I61398["Wu, T. F."],
+    ag__R8433__has_authors=I48237["Wu, T. F."],
     ag__R8434__has_title="A 43pJ/Cycle Non-Volatile Microcontroller with 4.7μs Shutdown/Wake-up Integrating 2.3-bit/Cell Resistive RAM and Resilience Techniques",
     ag__R8435__has_year=2019,
-    R11809__has_memristor_stack=I61689["TiN/HfO2/Ti/TiN"],
+    R11809__has_memristor_stack=I5868["TiN/HfO2/Ti/TiN"],
     
 )
 
 
 # 2024_aguirre 
-I28976["Au/Pd/WOx/Au"].update_relations(
+I99103["Au/Pd/WOx/Au"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I28976["Au/Pd/WOx/Au"].set_relation(R48517["has stack component"], omt.I54426["gold"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I28976["Au/Pd/WOx/Au"].set_relation(R48517["has stack component"], omt.I54426["gold"], qualifiers=[has_position(3), is_at_outer_position(True), ])
-I28976["Au/Pd/WOx/Au"].set_relation(R48517["has stack component"], omt.I60065["palladium"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I28976["Au/Pd/WOx/Au"].set_relation(R48517["has stack component"], omt.I6146["WOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I99103["Au/Pd/WOx/Au"].set_relation(R48517["has stack component"], omt.I54426["gold"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I99103["Au/Pd/WOx/Au"].set_relation(R48517["has stack component"], omt.I54426["gold"], qualifiers=[has_position(3), is_at_outer_position(True), ])
+I99103["Au/Pd/WOx/Au"].set_relation(R48517["has stack component"], omt.I60065["palladium"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I99103["Au/Pd/WOx/Au"].set_relation(R48517["has stack component"], omt.I6146["WOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 # 2024_aguirre 
@@ -3102,46 +3093,46 @@ I28976["Au/Pd/WOx/Au"].set_relation(R48517["has stack component"], omt.I6146["WO
 
 
 # 2024_aguirre 
-I66639["TiN/TaOx/HfOx/TiN"].update_relations(
+I28976["TiN/TaOx/HfOx/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I66639["TiN/TaOx/HfOx/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I66639["TiN/TaOx/HfOx/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(3), is_at_outer_position(True), ])
-I66639["TiN/TaOx/HfOx/TiN"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I66639["TiN/TaOx/HfOx/TiN"].set_relation(R48517["has stack component"], omt.I6105["HfOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I28976["TiN/TaOx/HfOx/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I28976["TiN/TaOx/HfOx/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(3), is_at_outer_position(True), ])
+I28976["TiN/TaOx/HfOx/TiN"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I28976["TiN/TaOx/HfOx/TiN"].set_relation(R48517["has stack component"], omt.I6105["HfOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 # 2024_aguirre 
-I34380["Pt/Ta/Ta2O5/Pt/Ti"].update_relations(
+I66639["Pt/Ta/Ta2O5/Pt/Ti"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I34380["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I34380["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(3), is_at_outer_position(False), ])
-I34380["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I38968["tantalum"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I34380["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(2), is_at_outer_position(False), ])
-I34380["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(4), is_at_outer_position(True), ])
+I66639["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I66639["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(3), is_at_outer_position(False), ])
+I66639["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I38968["tantalum"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I66639["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I66639["Pt/Ta/Ta2O5/Pt/Ti"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(4), is_at_outer_position(True), ])
 
 
 # 2024_aguirre 
-I37464["Ta/TaOx/Pt"].update_relations(
+I34380["Ta/TaOx/Pt"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I37464["Ta/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I38968["tantalum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I37464["Ta/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I37464["Ta/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I34380["Ta/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I38968["tantalum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I34380["Ta/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I34380["Ta/TaOx/Pt"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(True), ])
 
 
 # 2024_aguirre 
-I11681["W/TiN/TiON"].update_relations(
+I37464["W/TiN/TiON"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I11681["W/TiN/TiON"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I11681["W/TiN/TiON"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I11681["W/TiN/TiON"].set_relation(R48517["has stack component"], omt.I6147["TiON"], qualifiers=[has_position(2), is_at_outer_position(True), ])
+I37464["W/TiN/TiON"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I37464["W/TiN/TiON"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I37464["W/TiN/TiON"].set_relation(R48517["has stack component"], omt.I6147["TiON"], qualifiers=[has_position(2), is_at_outer_position(True), ])
 
 
 # 2024_aguirre 
@@ -3149,14 +3140,14 @@ I11681["W/TiN/TiON"].set_relation(R48517["has stack component"], omt.I6147["TiON
 
 
 # 2024_aguirre 
-I41069["Pt/SiOxAg/Pt/Ti"].update_relations(
+I11681["Pt/SiOxAg/Pt/Ti"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I41069["Pt/SiOxAg/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I41069["Pt/SiOxAg/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(False), ])
-I41069["Pt/SiOxAg/Pt/Ti"].set_relation(R48517["has stack component"], omt.I6151["SiOxAg"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I41069["Pt/SiOxAg/Pt/Ti"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(3), is_at_outer_position(True), ])
+I11681["Pt/SiOxAg/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I11681["Pt/SiOxAg/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I11681["Pt/SiOxAg/Pt/Ti"].set_relation(R48517["has stack component"], omt.I6151["SiOxAg"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I11681["Pt/SiOxAg/Pt/Ti"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(3), is_at_outer_position(True), ])
 
 
 # 2024_aguirre 
@@ -3167,49 +3158,49 @@ omt.I6151["SiOxAg"].update_relations(
 
 
 # 2024_aguirre 
-I5868["Ta/Pd/HfO2/Pt/Ti"].update_relations(
+I41069["Ta/Pd/HfO2/Pt/Ti"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I5868["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I38968["tantalum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I5868["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I60065["palladium"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I5868["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(2), is_at_outer_position(False), ])
-I5868["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(3), is_at_outer_position(False), ])
-I5868["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(4), is_at_outer_position(True), ])
+I41069["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I38968["tantalum"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I41069["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I60065["palladium"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I41069["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I41069["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I4374["platinum"], qualifiers=[has_position(3), is_at_outer_position(False), ])
+I41069["Ta/Pd/HfO2/Pt/Ti"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(4), is_at_outer_position(True), ])
 
 
 # 2024_aguirre 
-I61689["TiN/HfO2/Ti/TiN"].update_relations(
+I5868["TiN/HfO2/Ti/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I61689["TiN/HfO2/Ti/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I61689["TiN/HfO2/Ti/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(3), is_at_outer_position(True), ])
-I61689["TiN/HfO2/Ti/TiN"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I61689["TiN/HfO2/Ti/TiN"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I5868["TiN/HfO2/Ti/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I5868["TiN/HfO2/Ti/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(3), is_at_outer_position(True), ])
+I5868["TiN/HfO2/Ti/TiN"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I5868["TiN/HfO2/Ti/TiN"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 # 2024_aguirre 
-I37167["W/Ta2O5/TaOx/W"].update_relations(
+I61689["W/Ta2O5/TaOx/W"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I37167["W/Ta2O5/TaOx/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I37167["W/Ta2O5/TaOx/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(3), is_at_outer_position(True), ])
-I37167["W/Ta2O5/TaOx/W"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I37167["W/Ta2O5/TaOx/W"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I61689["W/Ta2O5/TaOx/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I61689["W/Ta2O5/TaOx/W"].set_relation(R48517["has stack component"], omt.I41958["tungsten"], qualifiers=[has_position(3), is_at_outer_position(True), ])
+I61689["W/Ta2O5/TaOx/W"].set_relation(R48517["has stack component"], omt.I6123["Ta2O5"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I61689["W/Ta2O5/TaOx/W"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 # 2024_aguirre 
-I12287["AlCu/TiN/Ti/HfO2/TiN"].update_relations(
+I37167["AlCu/TiN/Ti/HfO2/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I12287["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I6148["AlCu"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I12287["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I12287["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(4), is_at_outer_position(True), ])
-I12287["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(2), is_at_outer_position(False), ])
-I12287["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(3), is_at_outer_position(False), ])
+I37167["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I6148["AlCu"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I37167["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I37167["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(4), is_at_outer_position(True), ])
+I37167["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I87594["titanium"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I37167["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(3), is_at_outer_position(False), ])
 
 
 # 2024_aguirre 
@@ -3217,14 +3208,14 @@ I12287["AlCu/TiN/Ti/HfO2/TiN"].set_relation(R48517["has stack component"], omt.I
 
 
 # 2024_aguirre 
-I29376["TiN/HfO2/TaOx/TiN"].update_relations(
+I47202["TiN/HfO2/TaOx/TiN"].update_relations(
     R4__is_instance_of=I40233["memristor stack"],
     
 )
-I29376["TiN/HfO2/TaOx/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
-I29376["TiN/HfO2/TaOx/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(3), is_at_outer_position(True), ])
-I29376["TiN/HfO2/TaOx/TiN"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
-I29376["TiN/HfO2/TaOx/TiN"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
+I47202["TiN/HfO2/TaOx/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(0), is_at_outer_position(True), ])
+I47202["TiN/HfO2/TaOx/TiN"].set_relation(R48517["has stack component"], omt.I6118["TiN"], qualifiers=[has_position(3), is_at_outer_position(True), ])
+I47202["TiN/HfO2/TaOx/TiN"].set_relation(R48517["has stack component"], omt.I6104["HfO2"], qualifiers=[has_position(1), is_at_outer_position(False), ])
+I47202["TiN/HfO2/TaOx/TiN"].set_relation(R48517["has stack component"], omt.I6115["TaOx"], qualifiers=[has_position(2), is_at_outer_position(False), ])
 
 
 

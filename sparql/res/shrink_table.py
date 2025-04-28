@@ -3,7 +3,7 @@ import os
 from ipydex import IPS
 
 
-with open("sparql_res/From two tables, find a publication each that describes a stack. Both of those stacks shall have the same first component and same last component.csv", "rt")as f:
+with open("sparql_res/From two tables, find a publication each that describes a stack. Both of those stacks shall have the same first component and same last component.csv", "rt", encoding="utf-8")as f:
     df = pd.read_csv(f)
 
 df = df.drop("Unnamed: 0", axis=1)
@@ -16,5 +16,5 @@ for i, row in df.iterrows():
         else:
             last_row = row
 IPS()
-with open("sparql_res/pairwise same ends.csv", "wt") as f:
+with open("sparql_res/pairwise same ends.csv", "wt", encoding="utf-8") as f:
     df.to_csv(f)

@@ -1,6 +1,6 @@
 import re
 
-with open("data/memristor/2019/table_og.md", "rt") as f:
+with open("data/memristor/2019/table_og.md", "rt", encoding="utf-8") as f:
     content = f.read()
 lines = content.split("\n")
 new_lines = []
@@ -22,5 +22,5 @@ for i, line in enumerate(lines):
             new_lines.append(new_line)
     # else:
     #     new_lines.append(line)
-with open("data/memristor/2019/table.md", "wt") as f:
+with open("data/memristor/2019/table.md", "wt", encoding="utf-8") as f:
     f.write("\n".join(new_lines))

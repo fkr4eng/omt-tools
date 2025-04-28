@@ -88,7 +88,7 @@ def main():
                 pass
 
         # create publication entry
-        with open(meta_path, "rt") as f:
+        with open(meta_path, "rt", encoding="utf-8") as f:
             meta_infos = json.load(f)
         pub_dict = {"R4": 'ag.I6591["source document"]'}
         if meta_infos["author"]:

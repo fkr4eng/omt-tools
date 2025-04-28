@@ -9,7 +9,7 @@ omt = p.irkloader.load_mod_from_uri(r"irk:/omt/0.1/omt", prefix="omt")
 ag = p.irkloader.load_mod_from_uri(r"irk:/ocse/0.2/agents", prefix="ag")
 
 
-__URI__ = "irk:/ocse/0.2/irk:/omt/mem"
+__URI__ = "irk:/omt/mem"
 
 keymanager = p.KeyManager()
 p.register_mod(__URI__, keymanager)
@@ -391,7 +391,7 @@ has_citation_id = p.QualifierFactory(R61354["has citation id"])
 # 2019_lanza 
 I18540["publication: Recommended Methods to Study Resistive Switching Devices"].update_relations(
     R4__is_instance_of=ag.I6591["source document"],
-    ag__R8433__has_authors=["Mario Lanza", "H.-S. Philip Wong", " Eric Pop", " Daniele Ielmini", " Dimitri Strukov", " Brian C. Regan", "Luca Larcher", " Marco A. Villena", " J. Joshua Yang", " Ludovic Goux", " Attilio Belmonte", " Yuchao Yang", "Francesco M. Puglisi", " Jinfeng Kang", " Blanka Magyari-KÃ¶pe", " Eilam Yalon", " Anthony Kenyon", "Mark Buckwell", " Adnan Mehonic", " Alexander Shluger", " Haitong Li", " Tuo-Hung Hou", " Boris Hudec", "Deji Akinwande", " Ruijing Ge", " Stefano Ambrogio", " Juan B. Roldan", " Enrique Miranda", " Jordi SuÃ±e", "Kin Leong Pey", " Xing Wu", " Nagarajan Raghavan", " Ernest Wu", " Wei D. Lu", " Gabriele Navarro", "Weidong Zhang", " Huaqiang Wu", " Runwei Li", " Alexander Holleitner", " Ursula Wurstbauer", "Max C. Lemme", " Ming Liu", " Shibing Long", " Qi Liu", " Hangbing Lv", " Andrea Padovani", "Paolo Pavan", " Ilia Valov", " Xu Jing", " Tingting Han", " Kaichen Zhu", " Shaochuan Chen", " Fei Hui", "Yuanyuan Shi"],
+    ag__R8433__has_authors=["Mario Lanza", "H.-S. Philip Wong", " Eric Pop", " Daniele Ielmini", " Dimitri Strukov", " Brian C. Regan", "Luca Larcher", " Marco A. Villena", " J. Joshua Yang", " Ludovic Goux", " Attilio Belmonte", " Yuchao Yang", "Francesco M. Puglisi", " Jinfeng Kang", " Blanka Magyari-Köpe", " Eilam Yalon", " Anthony Kenyon", "Mark Buckwell", " Adnan Mehonic", " Alexander Shluger", " Haitong Li", " Tuo-Hung Hou", " Boris Hudec", "Deji Akinwande", " Ruijing Ge", " Stefano Ambrogio", " Juan B. Roldan", " Enrique Miranda", " Jordi Suñe", "Kin Leong Pey", " Xing Wu", " Nagarajan Raghavan", " Ernest Wu", " Wei D. Lu", " Gabriele Navarro", "Weidong Zhang", " Huaqiang Wu", " Runwei Li", " Alexander Holleitner", " Ursula Wurstbauer", "Max C. Lemme", " Ming Liu", " Shibing Long", " Qi Liu", " Hangbing Lv", " Andrea Padovani", "Paolo Pavan", " Ilia Valov", " Xu Jing", " Tingting Han", " Kaichen Zhu", " Shaochuan Chen", " Fei Hui", "Yuanyuan Shi"],
     ag__R8434__has_title="Recommended Methods to Study Resistive Switching Devices",
     ag__R8435__has_year=2019,
     R68407__has_internal_reference="2019_lanza_et_al",

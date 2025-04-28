@@ -118,7 +118,7 @@ for item in elements_data["results"]["bindings"]:
     elements.append(element_info)
 
 # Save the data to a JSON file with pretty formatting
-with open("chemical_elements.json", "w") as json_file:
+with open("chemical_elements.json", "w", encoding="utf-8") as json_file:
     json.dump(elements, json_file, indent=4)
 
 

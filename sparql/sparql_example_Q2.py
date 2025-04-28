@@ -77,7 +77,7 @@ IPS()
 
 ### convert table to latex (for paper only)
 table.to_latex("table.tex", index=False)
-with open("table.tex", "rt") as f:
+with open("table.tex", "rt", encoding="utf-8") as f:
     content = f.read()
 
 author_dict = {"2019_lanza_et_al": "B",
@@ -103,5 +103,5 @@ table_header = r"\rot{\shortstack[l]{overview\\paper}} & \rot{\shortstack[l]{cit
 lines = content.split("\n")
 lines[2] = table_header
 text = "\n".join(lines)
-with open("table.tex", "wt") as f:
+with open("table.tex", "wt", encoding="utf-8") as f:
     f.write(text)

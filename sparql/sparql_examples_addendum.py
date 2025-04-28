@@ -365,7 +365,7 @@ WHERE {{
 p.ds.rdfgraph = p.rdfstack.create_rdf_triples(add_qualifiers=True, modfilter=mod1.__URI__)
 res2 = p.rdfstack.perform_sparql_query(qsrc)
 table = p.rdfstack.query_result_to_table(res2)
-with open("sparql/res/From two different overview papers, find a publication that describes a stack. Both of those stacks shall have the same first component and same last component.csv", "wt") as f:
+with open("sparql/res/From two different overview papers, find a publication that describes a stack. Both of those stacks shall have the same first component and same last component.csv", "wt", encoding="utf-8") as f:
     table.to_csv(f)
 
 

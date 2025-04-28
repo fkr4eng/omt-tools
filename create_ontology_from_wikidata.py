@@ -78,7 +78,7 @@ def main():
     CM.default_language = "en"
 
     json_fpath = "./support_tools/wikidata_import/chemical_elements.json"
-    with open(json_fpath) as fp:
+    with open(json_fpath, encoding="utf-8") as fp:
         data: list[dict] = json.load(fp)
 
     # elements above this number are not interesting (they are unstable anyway)

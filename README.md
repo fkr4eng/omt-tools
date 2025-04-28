@@ -8,13 +8,26 @@
         |:-------|:---------------|:-----|
         | 57     | Au/Pd/WOx/Au   | ...  |
 
-    - if nec. use script `sort_table.py` to polish table (only works for table 2019)
+    - if nec. use script `sort_table.py` to polish table (only necessary for table 2019_xia)
         - then polish by hand (delete lines with incomplete data, look for exceptions)
 1. manually extract bibliography -> `bib.md`
 1. fill out `meta.json` (title authors year)
 1. create the following folder structure
 ````
-TODO Treestructure
+data
+├── 2019_lanza
+│   ├── bib.md
+│   ├── meta.json
+│   └── table.md
+├── 2019_xia
+│   ├── bib.md
+│   ├── meta.json
+│   └── table.md
+└── 2024_aguirre
+    ├── bib.md
+    ├── meta.json
+    └── table.md
+
 ````
 ## generate knowledge graphs
 1. use formalized natural language to create a statement file with relevant classes and relations, e.g.:
@@ -28,7 +41,7 @@ TODO Treestructure
 1. parse tables using stafo
     - run `create_memristor_ontology.py` to generate knowledge graph from formalized natural language and extract information from table
         - if the input format is right, this should be completely automatic
-    - this generates an output file (`output.py`) with the pyirk knowlegde graph
+    - this generates an output file (`output.py`) with the pyirk knowledge graph
 ## pose queries
 1. run `sparql.py` to see some example queries
     - use `p.rdfstack.query_result_to_table(res)` for pretty results

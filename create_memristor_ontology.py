@@ -90,6 +90,9 @@ def main():
         # create publication entry
         with open(meta_path, "rt", encoding="utf-8") as f:
             meta_infos = json.load(f)
+        meta_infos["author"] = [a.strip() for a in meta_infos["author"]]
+        for author in meta_infos["author"]:
+            CM.add_new_item(CM.d, author, "en", {"R4": 'ag.I7435["human"]', "R7781": author})
         pub_dict = {"R4": 'ag.I6591["source document"]'}
         if meta_infos["author"]:
             pub_dict["R8433"] = meta_infos["author"]
